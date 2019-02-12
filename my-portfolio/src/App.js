@@ -9,12 +9,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <button class="ui button">Follow</button>
         {/* <Header /> */}
-        <button class="ui button">
-          Follow
-</button>
-        
+        <div class="ui menu">
+          <a class="item">Browse</a>
+          <a class="item">Submit</a>
+          <div class="right menu">
+            <a class="item">Sign Up</a>
+            <a class="item">Help</a>
+          </div>
+        </div>
        
       </div>
     );
