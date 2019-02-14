@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button class="ui button">Follow</button>
         {/* <Header /> */}
         <div class="ui menu">
           <a class="item">Browse</a>
