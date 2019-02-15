@@ -6,6 +6,11 @@
     background: grey;
 } */
 
+body {
+  background: #b61924;
+}
+
+
 @media only screen and (max-width: 768px) {
 
 }
