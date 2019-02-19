@@ -6,14 +6,48 @@
     background: grey;
 } */
 
-body {
+.particles {
   background: #b61924;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.particlesButton {
+  align-items: center;
+}
+
+.project1 {
+  /* background: #3e3e3e; */
+  /* height: 400px; */
+}
+
+.project-left {
+  height: 400px;
+  background: yellow;
+  /* width: 50%; */
+}
+
+.project-right {
+  height: 400px;
+  background: purple;
+  /* width: 50%; */
 }
 
 
 @media only screen and (max-width: 768px) {
+  .particles {
+  height: 250px;
+}
+
+
+
 
 }
+
+
+
 
 @media only screen and (min-width: 768px) {
 
