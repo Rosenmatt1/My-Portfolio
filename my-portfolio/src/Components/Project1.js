@@ -10,8 +10,16 @@ class Project1 extends Component {
         <div className="eight wide column project-left"></div>
 
 
-        <div classNameName="eight wide column project-right">
-          <div className="ui active modal">
+        <div className="eight wide column project-right">
+
+          <button 
+            className="ui button"
+            onClick={(e) => this.props.modal1(e)}
+          >
+            Modal1
+          </button>
+
+          <div className="ui modal">
             <i className="close icon"></i>
             <div className="header">
               Profile Picture
@@ -38,10 +46,9 @@ class Project1 extends Component {
               </div>
             </div>
           </div>
+
+
         </div>
-
-
-
       </div>
     )
   }
