@@ -19,7 +19,7 @@ class Project1 extends Component {
             Modal1
           </button>
 
-          <div className="ui modal">
+          <div className={this.props.projectModal1 ? "ui active modal" : "ui modal"}>
             <i className="close icon"></i>
             <div className="header">
               Profile Picture

@@ -9,12 +9,15 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      
+      projectModal1: false
     }
   }
 
   modal1 = (e) => {
-    console.log("it worked")
+    // console.log("it worked")
+    this.setState({
+      projectModal1: true
+    })
     // ('.ui.modal')
     //   .modal('show')
   }
@@ -25,7 +28,8 @@ class App extends Component {
         <Header />
         <ParticlesTop />
         <Project1
-          modal1={this.modal1} />
+          modal1={this.modal1}
+          projectModal1={this.state.projectModal1} />
       </div>
     )
   }
