@@ -11,8 +11,7 @@ class Project1 extends Component {
 
 
         <div classNameName="eight wide column project-right">
-
-          <div className="ui modal">
+          <div className="ui active modal">
             <i className="close icon"></i>
             <div className="header">
               Profile Picture
@@ -39,10 +38,10 @@ class Project1 extends Component {
               </div>
             </div>
           </div>
-
-
-
         </div>
+
+
+
       </div>
     )
   }
