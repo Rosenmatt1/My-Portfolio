@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import './pair-programming.jpg'
+import image from './pair-programming.jpg'
 
 class Project1 extends Component {
 
@@ -19,7 +19,7 @@ class Project1 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img 
-                  src="/images/avatar/large/chris.jpg"
+                  src={image}
                   alt="image for project 1"  />
               </div>
               <div className="description">
