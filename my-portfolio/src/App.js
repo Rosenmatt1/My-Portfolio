@@ -25,6 +25,12 @@ class App extends Component {
     //   .modal('show')
   }
 
+  modal2 = () => {
+    this.setState({
+      modal2Toggle: true
+    })
+  }
+
   modalOff = () => {
     this.setState({
       modal1Toggle: false,
@@ -55,7 +61,7 @@ class App extends Component {
           : ""}
 
         <Project2
-          modal1={this.modal1}
+          modal2={this.modal2}
         /> 
 
 
