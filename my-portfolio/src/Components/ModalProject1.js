@@ -9,7 +9,10 @@ class ModalProject1 extends Component {
       <div className="ui grid">
         <div className="ui centered ten wide column">
           <div className="ui active modal" >
-            {/* <i className="close icon"></i> */}
+            <i 
+              className="close icon"
+              onClick={() => this.props.modal1off()}
+            ></i>
             <div className="header">
               Profile Picture
             </div>
@@ -30,7 +33,7 @@ class ModalProject1 extends Component {
                 className="ui black deny button"
                 onClick={() => this.props.modal1off()}
                 >
-                Nope
+                Close
               </div>
               <div className="ui red right labeled icon button">
                 Visit Site

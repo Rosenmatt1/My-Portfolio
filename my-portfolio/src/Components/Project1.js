@@ -7,7 +7,14 @@ class Project1 extends Component {
   render() {
     return (
       <div className="ui grid">
-        <div className="eight wide column project-left"></div>
+        <div className="eight wide column project-left">
+          <h3>Project 1</h3>
+          <p>Tech Used:</p>
+          <ul>
+            <li>React.js</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
 
         <div className="eight wide column project-right">
 
