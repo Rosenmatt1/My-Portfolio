@@ -14,8 +14,7 @@ class App extends Component {
     }
   }
 
-  modal1 = (e) => {
-    // console.log("it worked")
+  modal1 = () => {
     this.setState({
       projectModal1: true
     })
