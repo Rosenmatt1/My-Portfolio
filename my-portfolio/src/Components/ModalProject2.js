@@ -2,19 +2,19 @@ import React, { Component } from 'react'
 import '../App.css'
 import image from './pair-programming.jpg'
 
-class ModalProject1 extends Component {
+class ModalProject2 extends Component {
 
   render() {
     return (
       <div className="ui grid">
         <div className="ui centered ten wide column">
           <div className="ui active modal" >
-            <i 
+            <i
               className="close icon"
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              Project 1 
+              Project 2
             </div>
             <div className="image content">
               <div className="ui medium image">
@@ -24,15 +24,15 @@ class ModalProject1 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Quirky Line here...</div>
-                <p>This is a web app called <a href="/"target="_blank">React Inbox</a> that gives a fully function email inbox.</p>
+                <p>This is a web app called <a href="/" target="_blank">React Inbox</a> that gives a fully function email inbox.</p>
                 <p>Check it out.</p>
               </div>
             </div>
             <div className="actions">
-              <div 
+              <div
                 className="ui black deny button"
                 onClick={() => this.props.modalOff()}
-                >
+              >
                 Close
               </div>
               <div className="ui red right labeled icon button">
@@ -48,4 +48,4 @@ class ModalProject1 extends Component {
   }
 }
 
-export default ModalProject1
+export default ModalProject2

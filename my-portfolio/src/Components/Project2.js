@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import '../App.css'
 
-class Project1 extends Component {
+class Project2 extends Component {
 
   render() {
     return (
       <div className="ui grid">
         <div className="eight wide column project-left">
-          <h3>Project 1</h3>
+          <h3>Project 2</h3>
           <p>Tech Used:</p>
           <ul>
             <li>React.js</li>
@@ -17,11 +17,11 @@ class Project1 extends Component {
 
         <div className="eight wide column project-right">
 
-          <button 
+          <button
             className="ui button"
             onClick={() => this.props.modal1()}
           >
-            Modal1
+            Modal2
           </button>
 
         </div>
@@ -30,4 +30,4 @@ class Project1 extends Component {
   }
 }
 
-export default Project1
+export default Project2
