@@ -26,7 +26,10 @@ class ModalProject1 extends Component {
               </div>
             </div>
             <div className="actions">
-              <div className="ui black deny button">
+              <div 
+                className="ui black deny button"
+                onClick={() => this.props.modal1off()}
+                >
                 Nope
               </div>
               <div className="ui red right labeled icon button">

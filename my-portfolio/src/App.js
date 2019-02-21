@@ -10,16 +10,22 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      projectModal1: false
+      modal1Toggle: false
     }
   }
 
   modal1 = () => {
     this.setState({
-      projectModal1: true
+      modal1Toggle: true
     })
     // ('.ui.modal')
     //   .modal('show')
+  }
+
+  modal1off = () => {
+    this.setState({
+      modal1Toggle: false
+    })
   }
   
   render() {
@@ -28,14 +34,14 @@ class App extends Component {
         <Header />
         <ParticlesTop />
 
-        {this.state.projectModal1
+        {this.state.modal1Toggle
           ? <ModalProject1 
-              />
+            modal1off={this.modal1off}
+            />
           : ""}
       
         <Project1
           modal1={this.modal1}
-          // projectModal1={this.state.projectModal1} 
         />
       </div>
 
