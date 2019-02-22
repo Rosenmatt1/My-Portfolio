@@ -9,7 +9,7 @@ const ParallaxMiddle = (props) => (
 
 <Parallax
   blur={{ min: -15, max: 15 }}
-  bgImage={require('./code-Parallax.jpeg')}
+      bgImage={require('./code-Parallax.jpeg')}
   bgImageAlt="the dog"
   strength={-200}
 >
