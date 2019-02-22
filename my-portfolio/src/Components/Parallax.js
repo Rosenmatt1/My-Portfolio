@@ -1,11 +1,11 @@
 import React from 'react'
 import '../App.css'
-import './pair-programming.jpg'
+import image from './code-Parallax.jpeg'
 
 const Parallax = (props) => {
   return (
-    <div className="parallax-container borderless">
-      <div className="parallax"><img src='./pair-programming.jpg' /> </div>
+    <div className="parallax-container">
+      <div className="parallax"><img src={image} /> </div>
       </div>
   )
 }
