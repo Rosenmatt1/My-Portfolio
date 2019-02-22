@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
-import './code-Parallax.jpeg'
-import './pair-programming.jpg'
+import './code.png'
+// import './pair-programming.jpg'
 import '../App.css'
 
 const ParallaxMiddle = (props) => (
@@ -9,7 +9,7 @@ const ParallaxMiddle = (props) => (
 
 <Parallax
   blur={{ min: -15, max: 15 }}
-      bgImage={require('./code-Parallax.jpeg')}
+      bgImage={require('./code.png')}
   bgImageAlt="the dog"
   strength={-200}
 >
