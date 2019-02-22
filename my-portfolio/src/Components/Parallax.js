@@ -1,14 +1,40 @@
-import React from 'react'
+import React from 'react';
+import { Parallax, Background } from 'react-parallax';
+import './code-Parallax.jpeg'
+import './pair-programming.jpg'
+import './front-house.jpg'
 import '../App.css'
-import image from './code-Parallax.jpeg'
 
-const Parallax = (props) => {
-  return (
-    <div className="parallax-container">
-      <div className="parallax"><img src={image} /> </div>
-      </div>
-  )
-}
+const ParallaxCoder = (props) => (
+  <div>
 
-export default Parallax
+    <Parallax
+      blur={{ min: -15, max: 15 }}
+      bgImage={require('./pair-programming.jpg')}
+      bgImageAlt="the dog"
+      strength={-200}
+    >
+      Blur transition from min to max
+            <div style={{ height: '300px' }} />
+    </Parallax>
+
+    <Parallax
+      blur={{ min: -15, max: 15 }}
+      bgImage={require('./code-Parallax.jpeg')}
+      bgImageAlt="the dog"
+      strength={-200}
+    >
+      Blur transition from min to max
+            <div style={{ height: '300px' }} />
+    </Parallax>
+
+  </div>
+);
+
+export default ParallaxCoder;
+
+
+
+
+
 

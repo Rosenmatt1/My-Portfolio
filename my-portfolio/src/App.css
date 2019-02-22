@@ -1,7 +1,6 @@
 /* .liTextChange a:hover {
     color: white;
 }
-
 .changeToBlue a:hover {
     background: grey;
 } */
@@ -17,6 +16,8 @@
 .particlesButton {
   align-items: center;
 }
+
+
 
 .project-left {
   height: 250px;
