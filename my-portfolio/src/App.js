@@ -45,13 +45,14 @@ class App extends Component {
         <ParticlesTop />
 
         {this.state.modal1Toggle
-          ? <ModalProject1 
+          ? <ModalProject1
             modalOff={this.modalOff}
-            />
+          />
           : ""}
       
         <Project1
           modal1={this.modal1}
+          
         />
 
         {this.state.modal2Toggle

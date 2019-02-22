@@ -12,17 +12,22 @@ class Project2 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
+            <li></li>
           </ul>
         </div>
 
         <div className="eight wide column project-right">
 
           <button
-            className="ui button"
+            className="ui center button"
             onClick={() => this.props.modal2()}
           >
             Modal2
           </button>
+          <img 
+            className='centered react-inbox'
+            src='https://snag.gy/fM51Dd.jpg' alt='react-inbox'>
+          </img>
 
         </div>
       </div>
