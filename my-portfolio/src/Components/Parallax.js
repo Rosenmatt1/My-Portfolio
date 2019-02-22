@@ -5,7 +5,7 @@ import './pair-programming.jpg'
 import './front-house.jpg'
 import '../App.css'
 
-const ParallaxCoder = (props) => (
+const ParallaxTop = (props) => (
   <div>
 
     <Parallax
@@ -18,20 +18,10 @@ const ParallaxCoder = (props) => (
             <div style={{ height: '300px' }} />
     </Parallax>
 
-    <Parallax
-      blur={{ min: -15, max: 15 }}
-      bgImage={require('./code-Parallax.jpeg')}
-      bgImageAlt="the dog"
-      strength={-200}
-    >
-      Blur transition from min to max
-            <div style={{ height: '300px' }} />
-    </Parallax>
-
   </div>
 );
 
-export default ParallaxCoder;
+export default ParallaxTop;
 
 
 

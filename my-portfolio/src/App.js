@@ -4,7 +4,7 @@ import Header from './Components/Header.js'
 import ParticlesTop from './Components/ParticlesTop.js'
 import Project1 from './Components/Project1'
 import Project2 from './Components/Project2'
-import ParallaxCoder from './Components/Parallax.js'
+import ParallaxTop from './Components/Parallax.js'
 import ModalProject1 from './Components/ModalProject1'
 import ModalProject2 from './Components/ModalProject2'
 
@@ -43,7 +43,7 @@ class App extends Component {
       <div >
         <Header />
         <ParticlesTop />
-        <ParallaxCoder/>
+        <ParallaxTop/>
 
         {this.state.modal1Toggle
           ? <ModalProject1
