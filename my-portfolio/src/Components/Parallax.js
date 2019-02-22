@@ -2,7 +2,6 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import './code-Parallax.jpeg'
 import './pair-programming.jpg'
-import './front-house.jpg'
 import '../App.css'
 
 const ParallaxTop = (props) => (

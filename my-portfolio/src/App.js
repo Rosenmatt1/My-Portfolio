@@ -5,6 +5,7 @@ import ParticlesTop from './Components/ParticlesTop.js'
 import Project1 from './Components/Project1'
 import Project2 from './Components/Project2'
 import ParallaxTop from './Components/Parallax.js'
+import ParallaxMiddle from './Components/Parallax-Middle.js'
 import ModalProject1 from './Components/ModalProject1'
 import ModalProject2 from './Components/ModalProject2'
 
@@ -66,6 +67,8 @@ class App extends Component {
         <Project2
           modal2={this.modal2}
         /> 
+
+        <ParallaxMiddle />
 
 
       </div>
