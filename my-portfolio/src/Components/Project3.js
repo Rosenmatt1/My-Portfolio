@@ -22,7 +22,7 @@ class Project3 extends Component {
             className="ui button"
             onClick={() => this.props.modal3()}
           >
-            Modal2
+            Modal3
           </button>
           <img
             className='react-inbox'

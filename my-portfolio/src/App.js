@@ -42,7 +42,7 @@ class App extends Component {
     })
   }
 
-  modal4Toggle = () => {
+  modal4 = () => {
     this.setState({
       modal4Toggle: true
     })
