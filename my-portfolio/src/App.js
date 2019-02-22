@@ -10,6 +10,8 @@ import ParallaxTop from './Components/Parallax.js'
 import ParallaxMiddle from './Components/Parallax-Middle.js'
 import ModalProject1 from './Components/ModalProject1'
 import ModalProject2 from './Components/ModalProject2'
+import ModalProject3 from './Components/ModalProject3'
+import ModalProject4 from './Components/ModalProject4'
 
 class App extends Component {
   constructor() {
@@ -48,12 +50,12 @@ class App extends Component {
     })
   }
 
-
-
   modalOff = () => {
     this.setState({
       modal1Toggle: false,
-      modal2Toggle: false
+      modal2Toggle: false,
+      modal3Toggle: false,
+      modal4Toggle: false,
     })
   }
   
@@ -88,21 +90,21 @@ class App extends Component {
 
         <ParallaxMiddle />
 
-        {/* {this.state.modal3Toggle
+        {this.state.modal3Toggle
           ? <ModalProject3
             modalOff={this.modalOff}
           />
-          : ""} */}
+          : ""}
 
         <Project3
           modal3={this.modal3}
         /> 
 
-        {/* {this.state.modal4Toggle
-          ? <ModalProject3
+        {this.state.modal4Toggle
+          ? <ModalProject4
             modalOff={this.modalOff}
           />
-          : ""} */}
+          : ""}
 
         <Project4
           modal4={this.modal4}
