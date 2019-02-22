@@ -4,6 +4,8 @@ import Header from './Components/Header.js'
 import ParticlesTop from './Components/ParticlesTop.js'
 import Project1 from './Components/Project1'
 import Project2 from './Components/Project2'
+import Project3 from './Components/Project3'
+import Project4 from './Components/Project4'
 import ParallaxTop from './Components/Parallax.js'
 import ParallaxMiddle from './Components/Parallax-Middle.js'
 import ModalProject1 from './Components/ModalProject1'
@@ -14,7 +16,9 @@ class App extends Component {
     super()
     this.state = {
       modal1Toggle: false,
-      modal2Toggle: false
+      modal2Toggle: false,
+      modal3Toggle: false,
+      modal4Toggle: false
     }
   }
 
@@ -31,6 +35,20 @@ class App extends Component {
       modal2Toggle: true
     })
   }
+
+  modal3 = () => {
+    this.setState({
+      modal3Toggle: true
+    })
+  }
+
+  modal4Toggle = () => {
+    this.setState({
+      modal4Toggle: true
+    })
+  }
+
+
 
   modalOff = () => {
     this.setState({
@@ -69,6 +87,26 @@ class App extends Component {
         /> 
 
         <ParallaxMiddle />
+
+        {/* {this.state.modal3Toggle
+          ? <ModalProject3
+            modalOff={this.modalOff}
+          />
+          : ""} */}
+
+        <Project3
+          modal3={this.modal3}
+        /> 
+
+        {/* {this.state.modal4Toggle
+          ? <ModalProject3
+            modalOff={this.modalOff}
+          />
+          : ""} */}
+
+        <Project4
+          modal4={this.modal4}
+        /> 
 
 
       </div>
