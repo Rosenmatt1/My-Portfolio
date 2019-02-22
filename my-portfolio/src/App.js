@@ -12,6 +12,8 @@ import ModalProject1 from './Components/ModalProject1'
 import ModalProject2 from './Components/ModalProject2'
 import ModalProject3 from './Components/ModalProject3'
 import ModalProject4 from './Components/ModalProject4'
+import Footer from './Components/Footer.js'
+
 
 class App extends Component {
   constructor() {
@@ -109,6 +111,8 @@ class App extends Component {
         <Project4
           modal4={this.modal4}
         /> 
+
+        <Footer />
 
 
       </div>
