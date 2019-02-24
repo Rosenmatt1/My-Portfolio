@@ -6,9 +6,11 @@ import '../App.css'
 
 const Footer = (props) => {
   return (
-    <div className="footer">
-     
+    <div>
+    <div className="footerBuffer"></div>
+    <div className="footer"></div>
     </div>
+    
   )
 }
 

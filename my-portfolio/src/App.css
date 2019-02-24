@@ -34,12 +34,17 @@
   width: 350px;
 }
 
+.footerBuffer {
+  height: 150px;
+  background: white;
+}
+
 .footer {
-    background-color: #3e3e3e;
-    padding: 1rem 0;
-    margin-top: -9rem;
-    height: 300px;
-    clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
+  background-color: #3e3e3e;
+  padding: 1rem 0;
+  margin-top: -9rem;
+  height: 300px;
+  clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
 
