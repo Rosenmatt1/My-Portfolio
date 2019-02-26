@@ -5,6 +5,16 @@
     background: grey;
 } */
 
+.linkedin {
+  height: 50px;
+  width: 50px;
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+}
+
 .particles {
   background: #b61924;
   height: 500px;
