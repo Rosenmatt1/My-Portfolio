@@ -10,8 +10,8 @@ const Header = (props) => {
   return (
     <div className="ui menu">
 
-      <a className="item" href="/">About Mateo</a>
-      <a className="item" href="/">Projects</a>
+      <a className="item head" href="/">About Mateo</a>
+      <a className="item head" href="/">Projects</a>
 
       <div className=" right menu">
         <img className="github" src={github}></img>
@@ -21,8 +21,6 @@ const Header = (props) => {
     </div>
   )
 }
-
-
 
 export default Header
 

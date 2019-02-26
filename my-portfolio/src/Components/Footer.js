@@ -7,19 +7,27 @@ import '../App.css'
 const Footer = (props) => {
   return (
     <div>
-    <div className="footerBuffer"></div>
-    <div className="footer"></div>
+
+      <div className="footerBuffer">
+      
+        <div className="title">
+          <p className="border">Projects</p>
+        </div>
+
+      </div>
+
+      <div className="footer"></div>
     </div>
+
+      )
+    }
     
-  )
-}
-
-export default Footer
-
-
-
-
-
-
-
-
+    export default Footer
+    
+    
+    
+    
+    
+    
+    
+    

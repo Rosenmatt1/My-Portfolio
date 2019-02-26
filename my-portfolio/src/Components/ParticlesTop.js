@@ -19,7 +19,7 @@ class ParticlesTop extends Component {
         <div className="col">
           <div className="row particles">
             <Particles params={particleOpt} />
-            <button className="particlesButton">Ooo Baby Push It</button>
+            {/* <button className="particlesButton">Ooo Baby Push It</button> */}
           </div>
         </div>
       </div>
