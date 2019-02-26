@@ -6,8 +6,6 @@ import '../App.css'
 
 const ParallaxTop = (props) => (
   <div>
-
-    
     <div className="title">
       <p className="border">Projects</p>
     </div>
@@ -18,13 +16,9 @@ const ParallaxTop = (props) => (
       bgImageAlt="the dog"
       strength={-200}
     >
-      Blur transition from min to max
-            <div style={{ height: '300px' }} />
+    <div style={{ height: '300px' }} />
 
-      
     </Parallax>
-
-
   </div>
 );
 
