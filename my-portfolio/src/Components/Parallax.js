@@ -7,6 +7,11 @@ import '../App.css'
 const ParallaxTop = (props) => (
   <div>
 
+    
+    <div className="title">
+      <p className="border">Projects</p>
+    </div>
+
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage={require('./pair-programming.jpg')}
@@ -15,7 +20,10 @@ const ParallaxTop = (props) => (
     >
       Blur transition from min to max
             <div style={{ height: '300px' }} />
+
+      
     </Parallax>
+
 
   </div>
 );

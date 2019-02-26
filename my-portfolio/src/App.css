@@ -47,12 +47,14 @@
   letter-spacing: 8px;
   text-align: center;
   background-color: transparent;
+  z-index: 2;
 }
 
 .border {
   border: 1px solid black;
   background-color: transparent;
   padding: 20px;
+  z-index: 2;
 }
 
 
