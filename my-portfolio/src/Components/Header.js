@@ -8,17 +8,31 @@ import linkedin from './linkedin.png'
 
 const Header = (props) => {
   return (
-    <div className="ui row">
-      <div className="ui left menu">
-        <a className="item" href="/">About Mateo</a>
-        <a className="item" href="/">Projects</a>
+    <div className="ui menu">
+
+      {/* <div className="four column row"> */}
+        {/* <div className="left floated column"> */}
+          <a className="item" href="/">About Mateo</a>
+          <a className="item" href="/">Projects</a>
+        {/* </div> */}
+      {/* </div> */}
+
+       {/* <div className="four column row"> */}
+        <div className=" right menu">
+          <img className="github" src={github}></img>
+          <img className="linkedin" src={linkedin}></img>
+        {/* </div> */}
       </div>
 
-      <div className="ui right menu">
-        <img className="github" src={github}></img>
-        <img className="linkedin" src={linkedin}></img>
-      </div>
     </div>
+
+
+
+    // <div class="ui grid">
+    //   <div class="four column row">
+    //     <div class="left floated column"></div>
+    //     <div class="right floated column"></div>
+    //   </div>
   )
 }
 
