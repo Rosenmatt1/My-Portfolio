@@ -52,9 +52,8 @@
   padding: 1rem 0;
   margin-top: -9rem;
   height: 300px;
-  clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
-
 
 
 @media only screen and (max-width: 768px) {
