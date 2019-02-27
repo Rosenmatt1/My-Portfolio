@@ -3,6 +3,10 @@
     background: red;
 } */
 
+.ui.menu {
+  margin: -.5rem;
+}
+
 .linkedin {
   height: 50px;
   width: 50px;
@@ -15,12 +19,12 @@
 
 .particles {
   background: #b61924;
-  height: 500px;
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .project-left {
   height: 250px;
@@ -33,12 +37,11 @@
 }
 
 
-
-
 .title {
   position: absolute;
   text-transform: uppercase;
   font-size: 27px;
+  font-family: Lato, sans-serif;
   letter-spacing: 8px;
   text-align: center;
   background-color: transparent;
@@ -51,6 +54,26 @@
   padding: 20px;
   z-index: 2;
 }
+
+.titleWhite {
+  position: absolute;
+  text-transform: uppercase;
+  color:#dee2e6;
+  font-family: Lato,sans-serif;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-align: center;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.borderWhite {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 20px;
+  z-index: 2;
+}
+
 
 
 .react-inbox {
@@ -73,17 +96,17 @@
 
 
 @media only screen and (max-width: 768px) {
-  .particles {
-  height: 200px;
+.particles {
+  height: 20vh;
 }
 
-.project-left {
+/* .project-left {
   height: 150px;
 }
 
 .project-right {
   height: 150px;
-}
+}  */
 
 }
 

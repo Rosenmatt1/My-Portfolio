@@ -1,23 +1,21 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
-import './code-Parallax.jpeg'
 import './pair-programming.jpg'
 import '../App.css'
 
 const ParallaxTop = (props) => (
   <div>
-    <div className="title">
-      <p className="border">Projects</p>
+    <div className="titleWhite">
+      <p className="borderWhite">Projects</p>
     </div>
 
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage={require('./pair-programming.jpg')}
-      bgImageAlt="the dog"
+      bgImageAlt="Matthew Rosenberg Web Development Denver, CO"
       strength={-200}
     >
-    <div style={{ height: '300px' }} />
-
+      <div style={{ height: '300px' }} />
     </Parallax>
   </div>
 );

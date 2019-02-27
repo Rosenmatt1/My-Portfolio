@@ -8,12 +8,12 @@ import linkedin from './linkedin.png'
 
 const Header = (props) => {
   return (
-    <div className="ui menu">
+    <div className="ui menu head">
 
-      <a className="item head" href="/">About Mateo</a>
-      <a className="item head" href="/">Projects</a>
+      <a className="item" href="/">About Mateo</a>
+      <a className="item" href="/">Projects</a>
 
-      <div className=" right menu">
+      <div className="right menu">
         <img className="github" src={github}></img>
         <img className="linkedin" src={linkedin}></img>
       </div>

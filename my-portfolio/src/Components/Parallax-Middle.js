@@ -1,23 +1,23 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import './code.png'
-// import './pair-programming.jpg'
 import '../App.css'
 
 const ParallaxMiddle = (props) => (
   <div>
+    <div className="titleWhite">
+      <p className="borderWhite">Projects</p>
+    </div>
 
-<Parallax
-  blur={{ min: -15, max: 15 }}
+    <Parallax
+      blur={{ min: -15, max: 15 }}
       bgImage={require('./code.png')}
-  bgImageAlt="the dog"
-  strength={-200}
->
-  {/* Blur transition from min to max */}
-            <div style={{ height: '300px' }} />
-</Parallax>
-
+      bgImageAlt="the dog"
+      strength={-200}
+    >
+      <div style={{ height: '300px' }} />
+    </Parallax>
   </div>
 );
 
-  export default ParallaxMiddle;
+export default ParallaxMiddle;

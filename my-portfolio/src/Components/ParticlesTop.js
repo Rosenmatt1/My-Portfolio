@@ -16,16 +16,14 @@ class ParticlesTop extends Component {
   render() {
     return (
       <div className="ui-container">
-        <div className="col">
           <div className="row particles">
             <Particles params={particleOpt} />
-
+            
             <div className="title">
               <p className="border">Projects</p>
             </div>
             
           </div>
-        </div>
       </div>
     )
   }
