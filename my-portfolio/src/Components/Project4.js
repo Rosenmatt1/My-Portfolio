@@ -23,14 +23,10 @@ class Project4 extends Component {
         </div>
 
         <div className="eight wide column project-right">
-
-
+        
           <div className="giphy" >
             <iframe src="https://media.giphy.com/media/8UHxgchA1CH89Y1eGg/giphy.gif" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
           </div>
-          <p>
-            <a href="email-inbox-react.firebaseapp.com">via GIPHY</a>
-          </p>
 
         </div>
       </div>
