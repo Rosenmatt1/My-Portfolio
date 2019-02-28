@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax} from 'react-parallax';
 import './pair-programming.jpg'
 import '../App.css'
 
@@ -19,6 +19,7 @@ const ParallaxTop = (props) => (
     >
       <div style={{ height: '300px' }} />
     </Parallax>
+
   </div>
 );
 

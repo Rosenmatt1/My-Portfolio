@@ -14,8 +14,8 @@ const Header = (props) => {
       <a className="item" href="/">Projects</a>
 
       <div className="right menu">
-        <img className="github" src={github}></img>
-        <img className="linkedin" src={linkedin}></img>
+        <img className="github" src={github} alt="MatthewRosenbergGitHub"></img>
+        <img className="linkedin" src={linkedin} alt="MatthewRosenbergLinkedIn"></img>
       </div>
 
     </div>

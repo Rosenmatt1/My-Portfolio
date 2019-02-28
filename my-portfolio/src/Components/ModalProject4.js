@@ -20,7 +20,7 @@ class ModalProject4 extends Component {
               <div className="ui medium image">
                 <img
                   src={image}
-                  alt="image for project 1" />
+                  alt="project 4" />
               </div>
               <div className="description">
                 <div className="ui header">Quirky Line here...</div>
