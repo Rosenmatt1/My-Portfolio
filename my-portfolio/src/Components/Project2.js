@@ -14,16 +14,15 @@ class Project2 extends Component {
             <li>JavaScript</li>
             <li></li>
           </ul>
-        </div>
-
-        <div className="eight wide column project-right">
-
           <button
             className="ui button"
             onClick={() => this.props.modal2()}
           >
             Modal2
           </button>
+        </div>
+
+        <div className="eight wide column project-right">
 
 
           <div className="giphy" >

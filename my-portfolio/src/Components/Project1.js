@@ -14,16 +14,17 @@ class Project1 extends Component {
             <li>React.js</li>
             <li>JavaScript</li>
           </ul>
-        </div>
-
-        <div className="eight wide column project-right">
-
-          <button 
+          <button
             className="ui button"
             onClick={() => this.props.modal1()}
           >
             Modal1
           </button>
+        </div>
+
+        <div className="eight wide column project-right">
+
+          
 
           <div className="giphy" >
             <iframe src="https://giphy.com/embed/8UHxgchA1CH89Y1eGg" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
