@@ -6,7 +6,7 @@ import '../App.css'
 const ParallaxMiddle = (props) => (
   <div>
     <div className="titleWhite">
-      <p className="borderWhite">Projects</p>
+      <p className="borderWhite">Bringing Ideas to Life</p>
     </div>
 
     <Parallax

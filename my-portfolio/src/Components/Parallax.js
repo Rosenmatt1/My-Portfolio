@@ -4,13 +4,14 @@ import './pair-programming.jpg'
 import '../App.css'
 
 const ParallaxTop = (props) => (
-  <div className="ui-container"> 
+  <div className="ui-container topParallax1"> 
     <div className="row parallax">
+
       <div className="titleWhite">
-        <p className="borderWhite">Projects</p>
+        <p className="borderWhite">Bringing Ideas to Life</p>
       </div>
     </div>
-
+    
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage={require('./pair-programming.jpg')}

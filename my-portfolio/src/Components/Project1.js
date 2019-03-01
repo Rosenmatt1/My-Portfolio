@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../App.css'
-// import ModalProject1 from './ModalProject1'
 
 class Project1 extends Component {
 
@@ -13,6 +12,9 @@ class Project1 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
+            <li>BootStrap</li>
+            <li>CRUD</li>
+            <li>Express/Knex</li>
           </ul>
           <button
             className="ui button"

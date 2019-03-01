@@ -1,10 +1,7 @@
-/* .item a:hover {
-    color: green;
-    background: red;
-} */
 
 .ui.menu {
   margin: -.5rem;
+  height: 10vh;
 }
 
 .linkedin {
@@ -19,25 +16,29 @@
 
 .particles {
   background: #b61924;
-  height: 25vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
+.top.parallax {
+  height: 25vh;
+}
+
 .parallax {
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   /* align-items: center; */
 }
+
 .giphy {
   width: 100%;
   height: 0;
   padding-bottom: 40%;
-  position: relative;
+  position: absolute;
 }
 
 .giphy-embed {
@@ -45,21 +46,23 @@
 }
 
 .project-left {
-  height: 250px;
+  height: 40vh;
+  width: 30vw;
   background: white;
 }
 
 .project-right {
-  height: 250px;
+  height: 40vh;
+  width: 70vw;
   background: white;
 }
 
 .title {
   position: absolute;
   text-transform: uppercase;
-  font-size: 27px;
+  font-size: 13px;
   font-family: Lato, sans-serif;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   text-align: center;
   background-color: transparent;
   z-index: 2;
@@ -68,7 +71,7 @@
 .border {
   border: 1px solid black;
   background-color: transparent;
-  padding: 20px;
+  padding: 6vw;
   z-index: 2;
 }
 
@@ -77,8 +80,8 @@
   text-transform: uppercase;
   color:#dee2e6;
   font-family: Lato, sans-serif;
-  font-size: 27px;
-  letter-spacing: 8px;
+  font-size: 13px;
+  letter-spacing: 4px;
   text-align: center;
   background-color: transparent;
   z-index: 2;
@@ -87,10 +90,9 @@
 .borderWhite {
   border: 1px solid white;
   background-color: transparent;
-  padding: 20px;
+  padding: 6vw;
   z-index: 2;
 }
-
 
 .react-inbox {
   height: 200px;
@@ -110,17 +112,25 @@
   clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
+/* @media only screen and (max-width: 768px) {
 
-@media only screen and (max-width: 768px) {
-
-
-}
-
-
-
+} */
 
 @media only screen and (min-width: 768px) {
 
+.particles {
+  height: 93vh;
+}
+
+.title {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.titleWhite {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
 
 }
 
@@ -128,6 +138,16 @@
 
 .particles {
   height: 93vh;
+}
+
+.title {
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.titleWhite {
+  font-size: 27px;
+  letter-spacing: 8px;
 }
 
 }
