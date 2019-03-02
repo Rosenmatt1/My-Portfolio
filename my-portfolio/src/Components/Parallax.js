@@ -4,7 +4,7 @@ import './pair-programming.jpg'
 import '../App.css'
 
 const ParallaxTop = (props) => (
-  <div className="ui-container topParallax1"> 
+  <div className="ui-container heightParallax"> 
     <div className="row parallax">
 
       <div className="titleWhite">
