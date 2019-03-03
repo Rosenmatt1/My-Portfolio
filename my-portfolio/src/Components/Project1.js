@@ -25,7 +25,7 @@ class Project1 extends Component {
 
         <div className="column eight wide column centered project-right">
           <div className="giphy">
-            <iframe src="https://media.giphy.com/media/8UHxgchA1CH89Y1eGg/giphy.gif" title="project1" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <iframe src="https://media.giphy.com/media/fxyXMsfLq1JxlTqBPh/giphy.gif" title="project1" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
           </div>
         </div>
 
