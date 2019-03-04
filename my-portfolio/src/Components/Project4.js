@@ -12,7 +12,8 @@ class Project4 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
-            <li></li>
+            <li>CRUD</li>
+            <li>GET, POST, DEL, PUT</li>
           </ul>
           <button
             className="ui button"
