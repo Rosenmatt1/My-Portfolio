@@ -13,6 +13,7 @@ class Project3 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
+            <li>DOM Manipulation</li>
             <li></li>
           </ul>
           <button
