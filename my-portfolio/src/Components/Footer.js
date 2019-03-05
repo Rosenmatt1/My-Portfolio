@@ -6,22 +6,25 @@ import '../App.css'
 
 const Footer = (props) => {
   return (
-    <div className="footAlign">
+    <div>
       <div className="footerBuffer"></div>
-      <div className="footer">
-        <p> Phone: 617-719-3300 </p>
-        <p> Email: Rosenmatt1@gmail.com </p>
+        <div className="footer">
+        <div className="footAlign">
+          <h5>Contact:</h5>
+          <p> Phone: 617-719-3300 </p>
+          <p> Email: Rosenmatt1@gmail.com </p>
+        </div>
       </div>
     </div>
-      )
-    }
-    
-    export default Footer
-    
-    
-    
-    
-    
-    
-    
-    
+  )
+}
+
+export default Footer
+
+
+
+
+
+
+
+
