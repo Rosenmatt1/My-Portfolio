@@ -6,9 +6,12 @@ import '../App.css'
 
 const Footer = (props) => {
   return (
-    <div>
+    <div className="footAlign">
       <div className="footerBuffer"></div>
-      <div className="footer"></div>
+      <div className="footer">
+        <p> Phone: 617-719-3300 </p>
+        <p> Email: Rosenmatt1@gmail.com </p>
+      </div>
     </div>
       )
     }
