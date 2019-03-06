@@ -9,7 +9,7 @@ const ParallaxMiddle = (props) => (
     <div className="parallax">
       <div className="titleWhite">
         <p className="borderWhite">Bringing Ideas to Life</p>
-        <a target="_blank" href={resume}>
+        <a target="_blank" href={resume} rel="noopener noreferrer">
           <button>
             <i className="download icon"></i>
           </button>
