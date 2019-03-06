@@ -5,9 +5,9 @@ import '../App.css'
 
 const ParallaxTop = (props) => (
   <div className="ui-container heightParallax"> 
-    <div className="row parallax">
+    <div className="row parallax ">
 
-      <div className="titleWhite">
+      <div className="titleWhite ">
         <p className="borderWhite">Bringing Ideas to Life</p>
       </div>
     </div>

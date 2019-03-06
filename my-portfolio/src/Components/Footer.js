@@ -8,8 +8,9 @@ const Footer = (props) => {
   return (
     <div>
       <div className="footerBuffer"></div>
-        <div className="footer">
-        <div className="footAlign">
+      <div className="footer ui one column stackable center aligned page grid">
+        <i class="download icon"></i>
+        <div className="footAlign column twelve wide">
           <h5>Contact:</h5>
           <p> Phone: 617-719-3300 </p>
           <p> Email: Rosenmatt1@gmail.com </p>
@@ -18,6 +19,8 @@ const Footer = (props) => {
     </div>
   )
 }
+
+
 
 export default Footer
 
