@@ -63,21 +63,29 @@ class App extends Component {
       modal4Toggle: false,
     })
   }
-  
+
   render() {
     return (
-      <div >
-        <Header />
-        {/* <ParticlesTop /> */}
-        <AboutMe />
-        <ParallaxTop/>
+      <div>
+
+        <Router>
+          <div>
+            <Header />
+            <Route path="/aboutme/" render={() => <AboutMe />}
+            />
+            <Route path="/projects/" render={() => <ParticlesTop />}
+            />
+          </div>
+        </Router>
+
+        <ParallaxTop />
 
         {this.state.modal1Toggle
           ? <ModalProject1
             modalOff={this.modalOff}
           />
           : ""}
-      
+
         <Project1
           modal1={this.modal1}
         />
@@ -92,7 +100,7 @@ class App extends Component {
 
         <Project2
           modal2={this.modal2}
-        /> 
+        />
 
         <ParallaxMiddle />
 
@@ -104,7 +112,7 @@ class App extends Component {
 
         <Project3
           modal3={this.modal3}
-        /> 
+        />
 
         {this.state.modal4Toggle
           ? <ModalProject4
@@ -114,7 +122,7 @@ class App extends Component {
 
         <Project4
           modal4={this.modal4}
-        /> 
+        />
 
         <Footer />
 
