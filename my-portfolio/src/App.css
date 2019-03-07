@@ -156,6 +156,10 @@
   height: 91vh;
 }
 
+.aboutMe {
+  height: 91vh;
+}
+
 .heightParallax {
   height: 50vh;
 }
@@ -183,6 +187,10 @@
 @media only screen and (min-width: 1000px) {
 
 .particles {
+  height: 91vh;
+}
+
+.aboutMe {
   height: 91vh;
 }
 
