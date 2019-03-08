@@ -8,7 +8,7 @@ const AboutMe= (props) => {
   return (
     <div className="aboutMe">
       {/* <img src={} alt="Matthew Rosenberg aka Mateo"/> */}
-      <p>I pride myself in making cleaner user friendly websites and apps that are responsive, run smoothly, and mobile friedly.  I love finding efficient solutions to problems.  In my spare time I enjoy nature, yoga,and dancing.</p>
+      <p>I am a full stack developer tha takes pride in making clean user friendly websites that are responsive, mobile friedlyand run flawlessly.  I love finding efficient solutions to problems.  In my spare time I enjoy nature, yoga, and dancing.</p>
     </div>
   )
 }
