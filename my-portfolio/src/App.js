@@ -17,7 +17,6 @@ import ModalProject4 from './Components/ModalProject4'
 import Footer from './Components/Footer.js'
 
 
-
 class App extends Component {
   constructor() {
     super()
@@ -31,14 +30,18 @@ class App extends Component {
     }
   }
 
-  aboutMeButton = () => {
+  aboutMeButton = (e) => {
+    e.preventDefault()
+    console.log("about me")
     this.setState({
       aboutMeDisplay: true,
       projectsDiplay: false
     })
   }
   
-  projectsButton = () => {
+  projectsButton = (e) => {
+    e.preventDefault()
+    console.log("projects")
     this.setState({
       aboutMeDisplay: false,
       projectsDiplay: true
@@ -84,7 +87,10 @@ class App extends Component {
     return (
       <div>
 
-        <Header />
+        <Header 
+          aboutMeButton={this.aboutMeButton}
+          projectsButton={this.projectsButton}
+        />
 
         <ParticlesTop />
 

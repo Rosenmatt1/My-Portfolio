@@ -11,8 +11,8 @@ const Header = (props) => {
   return (
     <div className="ui menu head">
 
-      <a className="item" href="/">About Mateo</a>
-      <a className="item" href="/">Projects</a>
+      <a className="item" onClick={(e) => props.aboutMeButton(e)} href="/">About Mateo</a>
+      <a className="item" onClick={(e) => props.projectsButton(e)} href="/">Projects</a>
 
       {/* <a className="item"> <Link to="/projects/">Projects</Link> </a>
       <a className="item"> <Link to="/aboutme/">About Me</Link> </a> */}
