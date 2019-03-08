@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import Header from './Components/Header.js'
 import ParticlesTop from './Components/ParticlesTop.js'
 import AboutMe from './Components/AboutMe.js'
@@ -25,8 +25,24 @@ class App extends Component {
       modal1Toggle: false,
       modal2Toggle: false,
       modal3Toggle: false,
-      modal4Toggle: false
+      modal4Toggle: false,
+      aboutMeDisplay: false,
+      projectsDiplay: true
     }
+  }
+
+  aboutMeButton = () => {
+    this.setState({
+      aboutMeDisplay: true,
+      projectsDiplay: false
+    })
+  }
+  
+  projectsButton = () => {
+    this.setState({
+      aboutMeDisplay: false,
+      projectsDiplay: true
+    })
   }
 
   modal1 = () => {
@@ -68,15 +84,23 @@ class App extends Component {
     return (
       <div>
 
-        <Router>
+        <Header />
+
+        <ParticlesTop />
+
+        <AboutMe />
+
+        {/* <Router>
           <div>
             <Header />
+            <Route path="/" exact render={() => <ParticlesTop />}
+            />
             <Route path="/aboutme/" render={() => <AboutMe />}
             />
             <Route path="/projects/" render={() => <ParticlesTop />}
             />
           </div>
-        </Router>
+        </Router> */}
 
         <ParallaxTop />
 
