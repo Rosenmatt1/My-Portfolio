@@ -16,7 +16,6 @@ import ModalProject3 from './Components/ModalProject3'
 import ModalProject4 from './Components/ModalProject4'
 import Footer from './Components/Footer.js'
 
-
 class App extends Component {
   constructor() {
     super()
@@ -97,7 +96,6 @@ class App extends Component {
           : <ParticlesTop />
         }
 
-
         {/* <Router>
           <div>
             <Header />
@@ -158,9 +156,7 @@ class App extends Component {
 
         <Footer />
 
-
       </div>
-
     )
   }
 }
