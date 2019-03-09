@@ -13,8 +13,7 @@ class Project4 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
-            <li>CRUD</li>
-            <li>GET, POST, DEL, PUT</li>
+            <li>HTTP Fetch</li>
           </ul>
           <button
             className="ui button"

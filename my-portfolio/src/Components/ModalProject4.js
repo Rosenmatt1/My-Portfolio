@@ -14,7 +14,7 @@ class ModalProject4 extends Component {
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              Project 4
+              Chuck Norris Random Joke Generator
             </div>
             <div className="image content">
               <div className="ui medium image">
@@ -23,9 +23,9 @@ class ModalProject4 extends Component {
                   alt="project 4" />
               </div>
               <div className="description">
-                <div className="ui header">Quirky Line here...</div>
-                <p>This is a web app called <a href="/" target="_blank">React Inbox</a> that gives a fully function email inbox.</p>
-                <p>Check it out.</p>
+                <div className="ui header">Don't Mess With The Norris</div>
+                <p>This is a web app called <a href="https://chuck-norris-quote-generator.firebaseapp.com/" target="_blank">Hello Chuck</a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume upfor the sound effect.  Get ready to laugh!</p>
+                <p>Try it out...</p>
               </div>
             </div>
             <div className="actions">
@@ -35,10 +35,14 @@ class ModalProject4 extends Component {
               >
                 Close
               </div>
-              <div className="ui red right labeled icon button">
-                Visit Site
-              <i className="angle up icon"></i>
-              </div>
+
+              <a target="_blank" href="https://chuck-norris-quote-generator.firebaseapp.com/">
+                <div className="ui red right labeled icon button">
+                  Visit Site
+                  <i className="angle up icon"></i>
+                </div>
+              </a>
+              
             </div>
           </div >
 

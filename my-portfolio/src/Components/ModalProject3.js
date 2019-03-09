@@ -14,18 +14,18 @@ class ModalProject3 extends Component {
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              Project 3
+              Boulevard Diner
             </div>
             <div className="image content">
               <div className="ui medium image">
                 <img
                   src={image}
-                  alt="project 3" />
+                  alt="Boulevard-Diner" />
               </div>
               <div className="description">
-                <div className="ui header">Quirky Line here...</div>
-                <p>This is a web app called <a href="/" target="_blank">React Inbox</a> that gives a fully function email inbox.</p>
-                <p>Check it out.</p>
+                <div className="ui header">Mock Restuarant Website and Menu</div>
+                <p> I'm proud to call <a href="http://boulevard-diner.surge.sh/" target="_blank">Boulevard Diner</a> my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api. </p>
+                <p>Go ahead and place an order...</p>
               </div>
             </div>
             <div className="actions">
@@ -35,10 +35,14 @@ class ModalProject3 extends Component {
               >
                 Close
               </div>
-              <div className="ui red right labeled icon button">
-                Visit Site
-              <i className="angle up icon"></i>
-              </div>
+
+              <a target="_blank" href="http://boulevard-diner.surge.sh/">
+                <div className="ui red right labeled icon button">
+                  Visit Site
+                  <i className="angle up icon"></i>
+                </div>
+              </a>
+
             </div>
           </div >
 
