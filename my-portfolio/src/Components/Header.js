@@ -20,23 +20,24 @@ const Header = (props) => {
       <a className="item"> <Link to="/aboutme/">About Me</Link> </a> */}
 
       <div className="right menu">
-        <a>
+
+        <a target="_blank" href="https://github.com/Rosenmatt1">
           <img
             className="github"
             src={github}
-            alt="MatthewRosenbergGitHub">
-          </img>
+            alt="MatthewRosenbergGitHub"
+          />
         </a>
 
-        <a>
+        <a target="_blank" href="https://www.linkedin.com/in/matthew-rosenberg1/">
           <img
             className="linkedin"
             src={linkedin}
-            alt="MatthewRosenbergLinkedIn">
-          </img>
+            alt="MatthewRosenbergLinkedIn"
+          />
         </a>
-      </div>
 
+      </div>
     </div>
   )
 }
