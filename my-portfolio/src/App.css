@@ -4,13 +4,17 @@
 }
 
 .linkedin {
-  height: 50px;
-  width: 50px;
+  height: 49px;
+  width: 49px;
+  margin-right: 3vw;
+  margin-left: 1vw;
+  margin-top: 1vh;
 }
 
 .github {
   height: 50px;
   width: 50px;
+  margin-top: 1vh;
 }
 
 .particles {
@@ -152,6 +156,14 @@
 
 @media only screen and (min-width: 768px) {
 
+.linkedin {
+  margin-top: 0vh;
+}
+
+.github {
+  margin-top: 0vh;
+}
+
 .particles {
   height: 91vh;
 }
@@ -185,6 +197,14 @@
 }
 
 @media only screen and (min-width: 1000px) {
+
+.linkedin {
+  margin-top: 0vh;
+}
+
+.github {
+  margin-top: 0vh;
+}
 
 .particles {
   height: 91vh;
