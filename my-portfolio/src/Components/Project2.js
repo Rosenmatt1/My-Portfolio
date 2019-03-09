@@ -13,7 +13,6 @@ class Project2 extends Component {
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
-            <li></li>
           </ul>
           <button
             className="ui button"

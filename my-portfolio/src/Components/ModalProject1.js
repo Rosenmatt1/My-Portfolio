@@ -24,8 +24,8 @@ class ModalProject1 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Learning JavaScript just got Easy</div>
-                <p>This is a fully functional crud app called <a href="/" target="_blank">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.</p>
-                <p>Check it out.</p>
+                <p>This is a fully functional crud app called <a href="https://js-flash-cards.firebaseapp.com/" target="_blank">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.  The site is responsive, mobile friendly, and runs flawlessly.</p>
+                <p>Try it for yourself...</p>
               </div>
             </div>
             <div className="actions">
@@ -35,7 +35,8 @@ class ModalProject1 extends Component {
               >
                 Close
               </div>
-              <a href="https://js-flash-cards.firebaseapp.com/">
+              <a href="https://js-flash-cards.firebaseapp.com/"
+                target="_blank">
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>

@@ -14,31 +14,37 @@ class ModalProject2 extends Component {
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              Project 2
+              React Email Inbox
             </div>
             <div className="image content">
               <div className="ui medium image">
                 <img
                   src={image}
-                  alt="project 2" />
+                  alt="react email inbox project" />
               </div>
               <div className="description">
-                <div className="ui header">Quirky Line here...</div>
-                <p>This is a web app called <a href="/" target="_blank">React Inbox</a> that gives a fully function email inbox.</p>
-                <p>Check it out.</p>
+                <div className="ui header">Checking your email just got cool.</div>
+                <p>This project is a fully function email inbox built with React.js, JavaScript, and Bootstrap called <a href="https://email-inbox-react.firebaseapp.com/" target="_blank">React Inbox.</a> The site is responsive, mobile friendly, and runs flawlessly.</p>
+                <p>Try it out for yourself...</p>
               </div>
             </div>
             <div className="actions">
+
               <div
                 className="ui black deny button"
                 onClick={() => this.props.modalOff()}
               >
                 Close
               </div>
-              <div className="ui red right labeled icon button">
-                Visit Site
-              <i className="angle up icon"></i>
-              </div>
+
+              <a
+                href="https://email-inbox-react.firebaseapp.com/" target="_blank">
+                <div className="ui red right labeled icon button">
+                  Visit Site
+                  <i className="angle up icon"></i>
+                </div>
+              </a>
+
             </div>
           </div >
 
