@@ -8,21 +8,20 @@ class Project1 extends Component {
     return (
       <div className="ui grid borderless">
         <div className="ui center aligned grid eight wide column project-left borderless">
-            <h3>Project 1</h3>
-            <p>Tech Used:</p>
+            <h3>JS Flashcards</h3>
+            <h5>Tech Used:</h5>
             <ul>
               <li>React.js</li>
               <li>JavaScript</li>
-              <li>Bootstrap</li>
+              <li>Express.js</li>
             </ul>
             <button
               className="ui button"
               onClick={() => this.props.modal1()}
             >
-              Modal1
+              Learn More...
               </button>
         </div>
-
 
         <div className="column eight wide column centered project-right">
           <div className="giphy">
@@ -31,7 +30,6 @@ class Project1 extends Component {
           }
           </div>
         </div>
-
       </div>
     )
   }

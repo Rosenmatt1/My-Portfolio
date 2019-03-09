@@ -9,7 +9,7 @@ const Footer = (props) => {
     <div>
       <div className="footerBuffer"></div>
       <div className="footer ui one column stackable center aligned page grid">
-        <i class="download icon"></i>
+        <i className="download icon"></i>
         <div className="footAlign column twelve wide">
           <h5>Contact:</h5>
           <p> Phone: 617-719-3300 </p>

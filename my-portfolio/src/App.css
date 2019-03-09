@@ -3,6 +3,11 @@
   height: 10vh;
 }
 
+/* a:hover {
+  color: white;
+  background-color:black;
+} */
+
 .linkedin {
   height: 49px;
   width: 49px;
@@ -48,8 +53,6 @@
     transform: translate3d(4px, 0, 0);
   }
 }
-
-
 
 .particles {
   background: #b61924;

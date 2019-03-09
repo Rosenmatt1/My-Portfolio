@@ -8,8 +8,8 @@ class Project2 extends Component {
     return (
       <div className="ui grid">
         <div className="ui center aligned grid eight wide column project-left">
-          <h3>Project 2</h3>
-          <p>Tech Used:</p>
+          <h3>React Inbox</h3>
+          <h5>Tech Used:</h5>
           <ul>
             <li>React.js</li>
             <li>JavaScript</li>
@@ -19,7 +19,7 @@ class Project2 extends Component {
             className="ui button"
             onClick={() => this.props.modal2()}
           >
-            Modal2
+            Learn More...
           </button>
         </div>
 
