@@ -20,11 +20,11 @@ class ModalProject4 extends Component {
               <div className="ui medium image">
                 <img
                   src={image}
-                  alt="project 4" />
+                  alt="chuck-norri-random-joke-generator" />
               </div>
               <div className="description">
                 <div className="ui header">Don't Mess With The Norris</div>
-                <p>This is a web app called <a href="https://chuck-norris-quote-generator.firebaseapp.com/" target="_blank">Hello Chuck</a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume upfor the sound effect.  Get ready to laugh!</p>
+                <p>This is a web app called <a href="https://chuck-norris-quote-generator.firebaseapp.com/" target="_blank">Hello Chuck</a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume up a bit for the sound effect.  Get ready to laugh!</p>
                 <p>Try it out...</p>
               </div>
             </div>
