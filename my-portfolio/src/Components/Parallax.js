@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax} from 'react-parallax';
-import './pair-programming.jpg'
+import './Assets/pair-programming.jpg'
 import '../App.css'
 
 const ParallaxTop = (props) => (
@@ -14,7 +14,7 @@ const ParallaxTop = (props) => (
     
     <Parallax
       blur={{ min: -15, max: 15 }}
-      bgImage={require('./pair-programming.jpg')}
+      bgImage={require('./Assets/pair-programming.jpg')}
       bgImageAlt="Matthew Rosenberg Web Development Denver, CO"
       strength={-200}
     >

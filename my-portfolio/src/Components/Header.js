@@ -1,9 +1,8 @@
 import React from 'react'
 import '../App.css'
-import github from './github.png'
-import linkedin from './linkedin.png'
-// import github from './github.png'
-// import linkedin from './linkedin.png'
+import github from './Assets/github.png'
+import linkedin from './Assets/linkedin.png'
+
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // dark blue color #3e3e3e

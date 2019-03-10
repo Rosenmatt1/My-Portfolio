@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import inboxGif from './react-inbox.gif'
+import inboxGif from './Assets/react-inbox.gif'
 
 class Project2 extends Component {
 
