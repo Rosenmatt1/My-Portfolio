@@ -66,7 +66,13 @@
 .aboutMe {
   height: 40vh;
   background: white;
+  color:black;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
+
+
 
 .heightParallax {
   height: 35vh;
