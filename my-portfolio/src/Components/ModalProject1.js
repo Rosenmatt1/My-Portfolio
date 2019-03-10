@@ -24,7 +24,7 @@ class ModalProject1 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Learning JavaScript just got Easy</div>
-                <p>This is a fully functional crud app called <a href="https://js-flash-cards.firebaseapp.com/" target="_blank">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.  The site is responsive, mobile friendly, and runs flawlessly.</p>
+                <p>This is a fully functional crud app called <a href="https://js-flash-cards.firebaseapp.com/" target="_blank" rel="noopener noreferrer">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.  The site is responsive, mobile friendly, and runs flawlessly.</p>
                 <p>Try it for yourself...</p>
               </div>
             </div>
@@ -38,7 +38,8 @@ class ModalProject1 extends Component {
               <a 
                 onClick={() => this.props.modalOff()}
                 href="https://js-flash-cards.firebaseapp.com/"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>

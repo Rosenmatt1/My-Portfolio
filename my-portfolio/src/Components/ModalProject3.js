@@ -24,7 +24,14 @@ class ModalProject3 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Mock Restuarant Website and Menu</div>
-                <p> I'm proud to call <a href="http://boulevard-diner.surge.sh/" target="_blank">Boulevard Diner</a> my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api. </p>
+                <p> I'm proud to call 
+                <a 
+                href="http://boulevard-diner.surge.sh/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >Boulevard Diner
+                </a> 
+                my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api. </p>
                 <p>Go ahead and place an order...</p>
               </div>
             </div>
@@ -39,7 +46,8 @@ class ModalProject3 extends Component {
               <a 
                 onClick={() => this.props.modalOff()}
                 target="_blank" 
-                href="http://boulevard-diner.surge.sh/">
+                href="http://boulevard-diner.surge.sh/"
+                rel="noopener noreferrer">
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>

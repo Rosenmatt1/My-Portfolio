@@ -20,7 +20,10 @@ const Header = (props) => {
 
       <div className="right menu">
 
-        <a target="_blank" href="https://github.com/Rosenmatt1">
+        <a
+          target="_blank"
+          href="https://github.com/Rosenmatt1"
+          rel="noopener noreferrer">
           <img
             className="github"
             src={github}
@@ -28,7 +31,11 @@ const Header = (props) => {
           />
         </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/matthew-rosenberg1/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/matthew-rosenberg1/"
+          rel="noopener noreferrer"
+        >
           <img
             className="linkedin"
             src={linkedin}
