@@ -38,6 +38,7 @@ class ModalProject2 extends Component {
               </div>
 
               <a
+                onClick={() => this.props.modalOff()}
                 href="https://email-inbox-react.firebaseapp.com/" target="_blank">
                 <div className="ui red right labeled icon button">
                   Visit Site

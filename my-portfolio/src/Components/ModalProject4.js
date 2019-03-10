@@ -36,7 +36,11 @@ class ModalProject4 extends Component {
                 Close
               </div>
 
-              <a target="_blank" href="https://chuck-norris-quote-generator.firebaseapp.com/">
+              <a 
+                target="_blank" 
+                href="https://chuck-norris-quote-generator.firebaseapp.com/"
+                onClick={() => this.props.modalOff()}
+              >
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>

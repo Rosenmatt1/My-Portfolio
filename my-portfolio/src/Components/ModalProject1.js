@@ -35,7 +35,9 @@ class ModalProject1 extends Component {
               >
                 Close
               </div>
-              <a href="https://js-flash-cards.firebaseapp.com/"
+              <a 
+                onClick={() => this.props.modalOff()}
+                href="https://js-flash-cards.firebaseapp.com/"
                 target="_blank">
                 <div className="ui red right labeled icon button">
                   Visit Site

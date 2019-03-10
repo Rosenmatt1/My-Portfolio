@@ -36,7 +36,10 @@ class ModalProject3 extends Component {
                 Close
               </div>
 
-              <a target="_blank" href="http://boulevard-diner.surge.sh/">
+              <a 
+                onClick={() => this.props.modalOff()}
+                target="_blank" 
+                href="http://boulevard-diner.surge.sh/">
                 <div className="ui red right labeled icon button">
                   Visit Site
                   <i className="angle up icon"></i>

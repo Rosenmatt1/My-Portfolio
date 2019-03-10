@@ -3,6 +3,10 @@
   height: 10vh;
 }
 
+/* .lessWidth {
+  width: 25vw;
+} */
+
 /* a:hover {
   color: white;
   background-color:black;
@@ -71,8 +75,6 @@
   font-size: 20px;
   text-align: center;
 }
-
-
 
 .heightParallax {
   height: 35vh;
