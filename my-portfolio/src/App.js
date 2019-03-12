@@ -118,6 +118,8 @@ class App extends Component {
           </div>
         </Router> */}
 
+        <ParallaxTop />
+
         {this.state.modal5Toggle
           ? <ModalProject5
             modalOff={this.modalOff}
@@ -125,8 +127,6 @@ class App extends Component {
           : ""}
 
         <Project5Uber />
-
-        <ParallaxTop />
 
         {this.state.modal1Toggle
           ? <ModalProject1
