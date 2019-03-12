@@ -76,7 +76,7 @@ class App extends Component {
     })
   }
 
-  modal4 = () => {
+  modal5 = () => {
     this.setState({
       modal5Toggle: true
     })
@@ -126,7 +126,9 @@ class App extends Component {
           />
           : ""}
 
-        <Project5Uber />
+        <Project5Uber 
+          modal5={this.modal5}
+        />
 
         {this.state.modal1Toggle
           ? <ModalProject1
