@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import gif from './Assets/lyftvsuber.gif'
+import gif from './Assets/ubervslyft1.gif'
 
 class Project5Uber extends Component {
 
