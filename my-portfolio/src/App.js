@@ -15,6 +15,7 @@ import ModalProject1 from './Components/ModalProject1'
 import ModalProject2 from './Components/ModalProject2'
 import ModalProject3 from './Components/ModalProject3'
 import ModalProject4 from './Components/ModalProject4'
+import ModalProject5 from './Components/ModalProject5'
 import Footer from './Components/Footer.js'
 
 class App extends Component {
