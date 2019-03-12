@@ -8,6 +8,7 @@ import Project1 from './Components/Project1'
 import Project2 from './Components/Project2'
 import Project3 from './Components/Project3'
 import Project4 from './Components/Project4'
+import Project5Uber from './Components/Project5Uber'
 import ParallaxTop from './Components/Parallax.js'
 import ParallaxMiddle from './Components/Parallax-Middle.js'
 import ModalProject1 from './Components/ModalProject1'
@@ -107,6 +108,8 @@ class App extends Component {
             />
           </div>
         </Router> */}
+
+        <Project5Uber />
 
         <ParallaxTop />
 
