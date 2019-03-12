@@ -130,6 +130,8 @@ class App extends Component {
           modal5={this.modal5}
         />
 
+        <div className="ui divider"></div>
+
         {this.state.modal1Toggle
           ? <ModalProject1
             modalOff={this.modalOff}
@@ -163,6 +165,8 @@ class App extends Component {
         <Project3
           modal3={this.modal3}
         />
+
+        <div className="ui divider"></div>
 
         {this.state.modal4Toggle
           ? <ModalProject4

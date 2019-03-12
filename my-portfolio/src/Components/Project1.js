@@ -26,7 +26,11 @@ class Project1 extends Component {
         <div className="column eight wide column centered project-right">
           <div className="giphy">
             {/* <iframe src="https://media.giphy.com/media/fxyXMsfLq1JxlTqBPh/giphy.gif" title="project1" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */
-            <img src={gif} alt="jsflashcards-project" />
+            <img 
+              className="giphyImg"
+              src={gif} 
+              alt="jsflashcards-project" 
+            />
           }
           </div>
         </div>

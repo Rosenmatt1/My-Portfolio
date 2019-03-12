@@ -26,7 +26,11 @@ class Project2 extends Component {
 
           <div className="giphy" >
             {/* <iframe src="https://media.giphy.com/media/8UHxgchA1CH89Y1eGg/giphy.gif" title="project2" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */}
-            <img src={inboxGif} alt="react-inbox-project" />
+            <img 
+              className="giphyImg"
+              src={inboxGif} 
+              alt="react-inbox-project" 
+            />
           </div>
 
         </div>

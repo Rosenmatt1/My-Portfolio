@@ -28,7 +28,11 @@ class Project3 extends Component {
 
           <div className="giphy" >
             {/* <iframe src="https://media.giphy.com/media/3rYNmhf3z6kMorFOE5/giphy.gif" title="project3" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */}
-            <img src={gif} alt="boulevard diner website" />
+            <img
+              className="giphyImg"
+              src={gif}
+              alt="boulevard diner website"
+            />
           </div>
 
         </div>
