@@ -25,6 +25,7 @@ class App extends Component {
       modal2Toggle: false,
       modal3Toggle: false,
       modal4Toggle: false,
+      modal5Toggle: false,
       aboutMeDisplay: false,
       projectsDiplay: true
     }
@@ -74,12 +75,19 @@ class App extends Component {
     })
   }
 
+  modal4 = () => {
+    this.setState({
+      modal5Toggle: true
+    })
+  }
+
   modalOff = () => {
     this.setState({
       modal1Toggle: false,
       modal2Toggle: false,
       modal3Toggle: false,
       modal4Toggle: false,
+      modal5Toggle: false,
     })
   }
 

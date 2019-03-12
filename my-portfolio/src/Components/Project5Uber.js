@@ -27,7 +27,7 @@ class Project5Uber extends Component {
         
           <div className="giphy" >
             {/* <iframe src="https://media.giphy.com/media/5h265MKGKktjbrCeUn/giphy.gif" title="project4" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */
-            <img src={gif} alt="chuck-norris-joke-generator" />
+            <img src={gif} alt="uber-vs-lyft-comparison" />
           }
           </div>
 
