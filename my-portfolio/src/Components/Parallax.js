@@ -5,12 +5,13 @@ import '../App.css'
 
 const ParallaxTop = (props) => (
   <div className="ui-container heightParallax"> 
-    <div className="row parallax ">
+    <div className="row parallax">
 
       <div className="titleWhite ">
         <p className="borderWhite">Bringing Ideas to Life</p>
       </div>
     </div>
+    
     
     <Parallax
       blur={{ min: -15, max: 15 }}
@@ -18,9 +19,10 @@ const ParallaxTop = (props) => (
       bgImageAlt="Matthew Rosenberg Web Development Denver, CO"
       strength={-200}
     >
-      <div style={{ height: '300px' }} />
+      <div style={{ height: '350px' }} />
     </Parallax>
 
+    
   </div>
 );
 

@@ -23,7 +23,7 @@ const ParallaxMiddle = (props) => (
       bgImageAlt="Matthew Rosenberg Full Stack Web Developer Denver, CO"
       strength={-200}
     >
-      <div style={{ height: '300px' }} />
+      <div style={{ height: '350px' }} />
     </Parallax>
 
   </div>
