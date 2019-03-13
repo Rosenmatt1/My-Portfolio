@@ -76,9 +76,9 @@
   text-align: center;
 }
 
-.heightParallax {
+/* .heightParallax {
   height: 35vh;
-}
+} */
 
 .parallax {
   display: flex;

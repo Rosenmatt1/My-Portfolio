@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react'
 import { Parallax} from 'react-parallax';
 import './Assets/pair-programming.jpg'
 import '../App.css'
 
-const ParallaxTop = (props) => (
-  <div className="ui-container heightParallax"> 
+class ParallaxTop extends Component {
+
+  render() {
+    return (
+  <div className="ui-container"> 
     <div className="row parallax">
 
       <div className="titleWhite ">
@@ -24,7 +27,9 @@ const ParallaxTop = (props) => (
 
     
   </div>
-);
+    )
+  }
+}
 
 export default ParallaxTop;
 

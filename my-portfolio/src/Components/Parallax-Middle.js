@@ -4,7 +4,8 @@ import './Assets/code.png'
 import '../App.css'
 import resume from './Assets/Matthew-Rosenberg-Resume.pdf'
 
-const ParallaxMiddle = (props) => (
+const ParallaxMiddle = (props) => {
+  return (
   <div className="heightParallax">
     <div className="parallax">
       <div className="titleWhite">
@@ -27,6 +28,7 @@ const ParallaxMiddle = (props) => (
     </Parallax>
 
   </div>
-);
+  )
+}
 
 export default ParallaxMiddle;
