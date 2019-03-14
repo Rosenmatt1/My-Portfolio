@@ -1,6 +1,6 @@
 .ui.menu {
   margin: -.5rem;
-  height: 10vh;
+  max-height: 10vh;
 }
 
 .mateo {
@@ -28,8 +28,8 @@
 } */
 
 .linkedin {
-  height: 49px;
-  width: 49px;
+  max-height: 49px;
+  max-width: 49px;
   margin-right: 3vw;
   margin-left: 1vw;
   margin-top: 1vh;

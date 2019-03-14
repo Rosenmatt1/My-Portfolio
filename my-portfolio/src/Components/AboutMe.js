@@ -11,8 +11,8 @@ const AboutMe= (props) => {
     <div className="aboutMe">
       <h3 classname="meetMateo">Meet Mateo</h3>
       <img className="mateo" src={me} alt="Matthew Rosenberg aka Mateo"/>
-      <p>I am a full stack developer tha takes pride in making clean user friendly websites that are responsive, mobile friedlyand run flawlessly.  I love finding efficient solutions to problems.  In my spare time I enjoy nature, yoga, and dancing.</p>
-   
+      <p>I am a full stack developer tha takes pride in making clean user friendly websites that are responsive, mobile friedly and run flawlessly.  I love finding efficient solutions to problems.  In my spare time I enjoy nature, yoga, and dancing.</p>
+      <h3 classname="meetMateo">View Resume</h3>
     <a target="_blank" href={resume} rel="noopener noreferrer">
       <button>
         <i className="download icon"></i>
