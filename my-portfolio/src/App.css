@@ -9,6 +9,10 @@
   clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
 }
 
+.meetMateo {
+  font-family: Lato, sans-serif;
+}
+
 /* .item {
   width: 9vw;
   text-align: center;

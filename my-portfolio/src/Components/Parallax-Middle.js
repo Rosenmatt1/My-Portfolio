@@ -2,7 +2,7 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import './Assets/code.png'
 import '../App.css'
-import resume from './Assets/Matthew-Rosenberg-Resume.pdf'
+// import resume from './Assets/Matthew-Rosenberg-Resume.pdf'
 
 const ParallaxMiddle = (props) => {
   return (
@@ -10,11 +10,6 @@ const ParallaxMiddle = (props) => {
     <div className="parallax">
       <div className="titleWhite">
         <p className="borderWhite">Bringing Ideas to Life</p>
-        <a target="_blank" href={resume} rel="noopener noreferrer">
-          <button>
-            <i className="download icon"></i>
-          </button>
-        </a>
       </div>
     </div>
 
