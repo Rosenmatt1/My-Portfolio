@@ -15,7 +15,6 @@ class ParallaxTop extends Component {
       </div>
     </div>
     
-    
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage={require('./Assets/pair-programming.jpg')}
@@ -25,7 +24,6 @@ class ParallaxTop extends Component {
       <div style={{ height: '350px' }} />
     </Parallax>
 
-    
   </div>
     )
   }
