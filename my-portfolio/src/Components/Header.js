@@ -24,31 +24,15 @@ const Header = (props) => {
           target="_blank"
           href="https://github.com/Rosenmatt1"
           rel="noopener noreferrer">
-          <i className="fab fa-github socialMedia"></i>
-        </a>
-
-        
-
-        {/* <a
-          target="_blank"
-          href="https://github.com/Rosenmatt1"
-          rel="noopener noreferrer">
-          <img
-            className="socialMedia"
-            src={github}
-            alt="MatthewRosenbergGitHub"/>
+          <i className="fab fa-github socialMediaGit"></i>
         </a>
 
         <a
-        target="_blank"
-        href="https://www.linkedin.com/in/matthew-rosenberg1/"
-        el="noopener noreferrer"
-        >
-        <img
-            className="socialMedia"
-        src={linkedin}
-        alt="MatthewRosenbergLinkedIn"/>
-        </a>  */}
+          target="_blank"
+          href="https://github.com/Rosenmatt1"
+          rel="noopener noreferrer">
+          <i className="fab fa-linkedin-in socialMediaLinked"></i>
+        </a>
 
       </div>
     </div>

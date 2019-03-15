@@ -56,16 +56,32 @@ h3 {
   background-color:black;
 } */
 
-.socialMedia {
+.socialMediaGit {
   font-size: 3rem;
-  /* margin-right: 3vw;
-  margin-left: 1vw; */
+  margin-right: 1vw;
+  /* margin-left: 1vw; */
   margin-top: 1vh;
   color:black;
 }
 
-.socialMedia:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+.socialMediaLinked {
+  font-size: 3.5rem;
+  margin-right: 3.5vw;
+  /* margin-left: 1vw; */
+  margin-top: 1vh;
+  color:black;
+}
+
+.socialMediaGit:hover {
+  animation: shake 0.72s cubic-bezier(.10,.07,.1,.57) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  cursor: pointer
+}
+
+.socialMediaLinked:hover {
+  animation: shake 0.72s cubic-bezier(.10,.07,.1,.57) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
