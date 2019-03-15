@@ -17,9 +17,7 @@ const AboutMe = (props) => {
         target="_blank"
         href={resume}
         rel="noopener noreferrer">
-        <button>
-          <i className="download icon"></i>
-        </button>
+          <i className="fas fa-file viewResume"></i>
       </a>
     </div>
   )
