@@ -14,7 +14,7 @@ const Header = (props) => {
 
       <a className="item" onClick={(e) => props.projectsButton(e)} href="/">Projects</a>
       <a className="item" onClick={(e) => props.aboutMeButton(e)} href="/">About Mateo</a>
-      
+
       {/* <a className="item"> <Link to="/projects/">Projects</Link> </a>
       <a className="item"> <Link to="/aboutme/">About Me</Link> </a> */}
 
@@ -24,24 +24,31 @@ const Header = (props) => {
           target="_blank"
           href="https://github.com/Rosenmatt1"
           rel="noopener noreferrer">
+          <i className="fab fa-github socialMedia"></i>
+        </a>
+
+        
+
+        {/* <a
+          target="_blank"
+          href="https://github.com/Rosenmatt1"
+          rel="noopener noreferrer">
           <img
-            className="github"
+            className="socialMedia"
             src={github}
-            alt="MatthewRosenbergGitHub"
-          />
+            alt="MatthewRosenbergGitHub"/>
         </a>
 
         <a
-          target="_blank"
-          href="https://www.linkedin.com/in/matthew-rosenberg1/"
-          rel="noopener noreferrer"
+        target="_blank"
+        href="https://www.linkedin.com/in/matthew-rosenberg1/"
+        el="noopener noreferrer"
         >
-          <img
-            className="linkedin"
-            src={linkedin}
-            alt="MatthewRosenbergLinkedIn"
-          />
-        </a>
+        <img
+            className="socialMedia"
+        src={linkedin}
+        alt="MatthewRosenbergLinkedIn"/>
+        </a>  */}
 
       </div>
     </div>
