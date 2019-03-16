@@ -1,7 +1,5 @@
 import React from 'react'
 import '../App.css'
-import github from './Assets/github.png'
-import linkedin from './Assets/linkedin.png'
 
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
