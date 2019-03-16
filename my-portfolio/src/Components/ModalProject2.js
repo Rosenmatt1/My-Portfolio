@@ -19,8 +19,9 @@ class ModalProject2 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img
+                  className="react-inbox"
                   src={image}
-                  alt="react email inbox project" />
+                  alt="react-email-inbox-project" />
               </div>
               <div className="description">
                 <div className="ui header">Checking your email just got cool.</div>

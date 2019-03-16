@@ -215,8 +215,7 @@ h3 {
 }
 
 .react-inbox {
-  height: 200px;
-  width: 350px;
+  margin-top: 3vh
 }
 
 .jsFlashcards {
