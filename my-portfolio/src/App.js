@@ -130,7 +130,7 @@ class App extends Component {
           modal5={this.modal5}
         />
 
-        <div className="ui divider"></div>
+        <div className="ui centered divider"></div>
 
         {this.state.modal1Toggle
           ? <ModalProject1
@@ -142,7 +142,7 @@ class App extends Component {
           modal1={this.modal1}
         />
 
-        <div className="ui divider"></div>
+        <div className="ui centered divider"></div>
 
         {this.state.modal2Toggle
           ? <ModalProject2

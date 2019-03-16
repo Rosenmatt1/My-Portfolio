@@ -123,26 +123,21 @@ h3 {
 }
 
 
-/* .heightParallax {
-  height: 35vh;
-} */
-
 .parallax {
+  height: 40vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /* align-items: center; */
+  z-index:4;
 }
 
 .giphy {
-  width: 100%;
+  width: 50vw;
   height: 100%;
   /* padding-bottom: 40%; */
   position: absolute;
 }
-
-/* .giphyImg {
- 
-} */
 
 .project-left {
   height: 60vh;
@@ -170,8 +165,6 @@ h3 {
   margin-left: 12.5vw; */
 }
 
-
-
 .title {
   position: absolute;
   text-transform: uppercase;
@@ -193,7 +186,9 @@ h3 {
 .titleWhite {
   position: absolute;
   text-transform: uppercase;
-  color:#dee2e6;
+  color: white;
+  /* -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black; */
   font-family: Lato, sans-serif;
   font-size: 13px;
   letter-spacing: 4px;
@@ -202,9 +197,12 @@ h3 {
   z-index: 2;
 }
 
+/* color:#dee2e6; */
+
 .borderWhite {
   border: 1px solid white;
   background-color: transparent;
+  
   padding: 6vw;
   z-index: 2;
 }
