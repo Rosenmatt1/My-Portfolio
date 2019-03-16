@@ -6,23 +6,22 @@ import '../App.css'
 
 const ParallaxMiddle = (props) => {
   return (
-  <div className="heightParallax">
-    <div className="parallax">
-      <div className="titleWhite">
-        <p className="borderWhite">Bringing Ideas to Life</p>
-      </div>
-    </div>
-
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage={require('./Assets/code.png')}
       bgImageAlt="Matthew Rosenberg Full Stack Web Developer Denver, CO"
-      strength={-200}
-    >
-      <div style={{ height: '350px' }} />
+      strength={-200}>
+
+      <div style={{ height: '100px' }} />
+
+      <div className="row parallax">
+        <div className="titleWhite">
+          <p className="borderWhite">Code On</p>
+        </div>
+      </div>
     </Parallax>
 
-  </div>
+  
   )
 }
 

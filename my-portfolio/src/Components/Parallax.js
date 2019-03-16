@@ -7,7 +7,6 @@ class ParallaxTop extends Component {
 
   render() {
     return (
-
       <Parallax
         blur={{ min: -15, max: 15 }}
         bgImage={require('./Assets/pair-programming.jpg')}
@@ -15,13 +14,12 @@ class ParallaxTop extends Component {
         strength={-200}
       >
         <div style={{ height: '100px' }} />
-        <div className="ui-container">
+        
           <div className="row parallax">
             <div className="titleWhite ">
-              <p className="borderWhite">Bringing Ideas to Life</p>
+              <p className="borderWhite">Bringing Ideas To Life</p>
             </div>
           </div>
-        </div>
       </Parallax>
     )
   }
