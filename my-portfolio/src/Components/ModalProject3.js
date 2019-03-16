@@ -19,7 +19,7 @@ class ModalProject3 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img
-                  className="reactInbo"
+                  className="boulevard"
                   src={image}
                   alt="Boulevard-Diner" />
               </div>
