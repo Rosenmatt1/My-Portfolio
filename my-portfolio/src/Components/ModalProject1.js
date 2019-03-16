@@ -19,6 +19,7 @@ class ModalProject1 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img
+                  className="jsFlashcards"
                   src={image}
                   alt="js flashcards" />
               </div>
