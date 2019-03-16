@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './Assets/pair-programming.jpg'
+import image from './Assets/boulevard-diner.gif'
 
 class ModalProject3 extends Component {
 
@@ -29,7 +29,7 @@ class ModalProject3 extends Component {
                 href="http://boulevard-diner.surge.sh/" 
                 target="_blank"
                 rel="noopener noreferrer"
-                >Boulevard Diner
+                > Boulevard Diner
                 </a> 
                 my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api. </p>
                 <p>Go ahead and place an order...</p>
