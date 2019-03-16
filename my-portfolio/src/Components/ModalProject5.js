@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './Assets/pair-programming.jpg'
+import image from './Assets/lyftvsuberHuge.gif'
 
 class ModalProject5 extends Component {
 
