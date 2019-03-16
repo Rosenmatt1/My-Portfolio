@@ -12,6 +12,7 @@ class ParallaxTop extends Component {
         bgImage={require('./Assets/pair-programming.jpg')}
         bgImageAlt="Matthew Rosenberg Web Development Denver, CO"
         strength={-200}
+        // className="parallHeight"
       >
         <div style={{ height: '100px' }} />
         

@@ -10,9 +10,11 @@ const ParallaxMiddle = (props) => {
       blur={{ min: -15, max: 15 }}
       bgImage={require('./Assets/code.png')}
       bgImageAlt="Matthew Rosenberg Full Stack Web Developer Denver, CO"
-      strength={-200}>
+      strength={-200}
+      // className="parallHeight"
+      >
 
-      <div style={{ height: '100px' }} />
+      <div style={{ height: "100px" }} />
 
       <div className="row parallax">
         <div className="titleWhite">

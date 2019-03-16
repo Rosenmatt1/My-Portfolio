@@ -122,6 +122,9 @@ h3 {
   align-items: center;
 }
 
+/* .parallHeight {
+  height: 50vh;
+} */
 
 .parallax {
   height: 40vh;
@@ -273,7 +276,7 @@ h3 {
   height: 91vh;
 }
 
-.heightParallax {
+.parallaxHeight {
   height: 50vh;
 }
 
@@ -319,7 +322,7 @@ h3 {
   height: 91vh;
 }
 
-.heightParallax {
+.parallaxHeight{
   height: 60vh;
 }
 
