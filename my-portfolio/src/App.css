@@ -215,6 +215,12 @@ h3 {
   width: 350px;
 }
 
+.chuck {
+  height: 7vh;
+  width: 7vw;
+  margin-left: 3vw;
+}
+
 .footerBuffer {
   height: 150px;
   background: white;

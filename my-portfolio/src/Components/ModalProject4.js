@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './Assets/pair-programming.jpg'
+import image from './Assets/chuck-norris.png'
 
 class ModalProject4 extends Component {
 
@@ -19,6 +19,7 @@ class ModalProject4 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img
+                  className="chuck"
                   src={image}
                   alt="chuck-norri-random-joke-generator" />
               </div>
