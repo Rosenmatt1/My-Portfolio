@@ -19,6 +19,7 @@ class ModalProject5 extends Component {
             <div className="image content">
               <div className="ui medium image">
                 <img
+                  className="ubervslyft"
                   src={image}
                   alt="uber-vs-lyft-price-compare" />
               </div>

@@ -210,6 +210,10 @@ h3 {
   z-index: 2;
 }
 
+.ubervslyft {
+  margin-top: 5vh;
+}
+
 .react-inbox {
   height: 200px;
   width: 350px;
