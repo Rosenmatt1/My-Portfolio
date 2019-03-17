@@ -8,6 +8,23 @@ import resume from './Assets/Matthew-Rosenberg-Resume.pdf'
 
 const AboutMe = (props) => {
   return (
+
+    <div class="ui grid">
+      <div class="three column row">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+      </div>
+    </div>
+
+    <div class="ui grid">
+      <div class="four wide column"></div>
+      <div class="four wide column"></div>
+      <div class="four wide column"></div>
+    </div>
+
+
+
     <div className="aboutMe">
       <h3>Meet Mateo</h3>
       <img className="mateo" src={me} alt="Matthew Rosenberg aka Mateo" />
