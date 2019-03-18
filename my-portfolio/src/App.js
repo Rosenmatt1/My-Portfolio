@@ -144,7 +144,9 @@ class App extends Component {
           modal1={this.modal1}
         />
 
-        <div className="ui centered divider"></div>
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider bottomBorder" />
+        </div>
 
         {this.state.modal2Toggle
           ? <ModalProject2
