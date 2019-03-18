@@ -1,19 +1,27 @@
 .ui.menu {
   margin: -.5rem;
   height: 10vh;
-  overflow:none;
+  overflow: auto;
+  min-height: 10vh;
 }
 
 .aboutMe {
-  height: 40vh;
+  height: 91vh;
   background: white;
   color:black;
   font-family: Lato, sans-serif;
   font-size: 20px;
   text-align: center;
   margin-top: 1.5vw;
+  overflow: auto;
 }
 
+.skill {
+  display: inline-block;
+  border-radius: 1rem;
+  width: 6.7rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+}
 
 .viewResume {
   font-size: 2.5rem;

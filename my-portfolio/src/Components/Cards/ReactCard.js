@@ -4,7 +4,8 @@ import image from './react.png'
 
 const ReactCard = (props) => {
   return (
-    <div className="ui card">
+    // <div className="tabs">
+    <div className="ui link cards skill">
       <div className="image">
         <img src={image} />
       </div>
@@ -15,7 +16,7 @@ const ReactCard = (props) => {
         </div>
         <div className="description">
           Kristy is an art director living in New York.
-              </div>
+        </div>
       </div>
       <div className="extra content">
         <a>
@@ -23,6 +24,7 @@ const ReactCard = (props) => {
           22 Friends </a>
       </div>
     </div>
+    // </div>
   )
 }
 
