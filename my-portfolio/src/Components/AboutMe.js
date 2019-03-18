@@ -20,7 +20,7 @@ const AboutMe = (props) => {
 
       <div className="centered eight wide column aboutMe">
         <div className="ui four column centered grid">
-        <h3 classname="meetMateo">View Resume</h3>
+        <h3 className="meetMateo">View Resume</h3>
         <a
           target="_blank"
           href={resume}

@@ -124,10 +124,6 @@ h3 {
   align-items: center;
 }
 
-/* .parallHeight {
-  height: 50vh;
-} */
-
 .parallax {
   height: 40vh;
   display: flex;
@@ -166,13 +162,6 @@ h3 {
 
 .divider {
   width: 75vw;
-  border-bottom: 1px solid blackl
-  /* margin-right: 12.5vw;
-  margin-left: 12.5vw; */
-}
-
-.bottomBorder {
-  border-bottom: 1px solid black;
 }
 
 .title {
