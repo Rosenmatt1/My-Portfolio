@@ -11,6 +11,11 @@
   font-family: Lato, sans-serif;
   font-size: 20px;
   text-align: center;
+  margin-top: 2vw;
+}
+
+.mateo {
+  margin-top: 1vw;
 }
 
 .viewResume {

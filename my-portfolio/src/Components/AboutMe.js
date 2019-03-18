@@ -10,7 +10,7 @@ const AboutMe = (props) => {
   return (
     <div className="ui grid">
 
-      <div className="centered eight wide column borderless aboutMe">
+      <div className="centered eight wide column aboutMe">
         <div className="ui four column centered grid">
           <h3 className="column">Meet Mateo</h3>
         </div>
@@ -18,8 +18,7 @@ const AboutMe = (props) => {
         <p>I am a full stack developer that takes pride in making clean user friendly websites that are responsive, mobile friedly and run flawlessly.  I love finding efficient solutions to problems.  I am a health enthusiast that in my spare time enjoys nature, yoga, and dancing.</p>
       </div>
 
-      
-      <div className="centered eight wide column borderless">
+      <div className="centered eight wide column aboutMe">
         <div className="ui four column centered grid">
         <h3 classname="meetMateo">View Resume</h3>
         <a
