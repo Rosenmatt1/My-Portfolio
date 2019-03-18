@@ -40,7 +40,7 @@ class App extends Component {
       projectsDiplay: false
     })
   }
-  
+
   projectsButton = (e) => {
     e.preventDefault()
     console.log("projects")
@@ -96,7 +96,7 @@ class App extends Component {
     return (
       <div>
 
-        <Header 
+        <Header
           aboutMeButton={this.aboutMeButton}
           projectsButton={this.projectsButton}
         />
@@ -126,11 +126,13 @@ class App extends Component {
           />
           : ""}
 
-        <Project5Uber 
+        <Project5Uber
           modal5={this.modal5}
         />
 
-        <div className="ui centered divider"></div>
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider bottomBorder" />
+        </div>
 
         {this.state.modal1Toggle
           ? <ModalProject1
