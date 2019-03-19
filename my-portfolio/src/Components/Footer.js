@@ -10,10 +10,8 @@ const Footer = (props) => {
       <div className="footerBuffer"></div>
       <div className="footer ui one column stackable center aligned page grid">
         <i className="download icon"></i>
-        <div className="footAlign column twelve wide">
-          <h5>Contact:</h5>
-          <p> Phone: 617-719-3300 </p>
-          <p> Email: Rosenmatt1@gmail.com </p>
+        <div className="footAlign bottom aligned content centered column twelve wide">
+          <h5>Phone:&nbsp;617-719-3300 &nbsp;&nbsp;  Email:&nbsp; Rosenmatt1@gmail.com </h5>
         </div>
       </div>
     </div>

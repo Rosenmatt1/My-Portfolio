@@ -4,27 +4,22 @@ import image from './react.png'
 
 const ReactCard = (props) => {
   return (
-    // <div className="tabs">
-    <div className="ui link cards skill">
-      <div className="image">
-        <img src={image} />
-      </div>
-      <div className="content">
-        <a className="header">Kristy</a>
-        <div className="meta">
-          <span className="date">Joined in 2013</span>
-        </div>
-        <div className="description">
-          Kristy is an art director living in New York.
-        </div>
-      </div>
-      <div className="extra content">
-        <a>
-          <i className="user icon"></i>
-          22 Friends </a>
-      </div>
-    </div>
+    // <div className="skill">
+    //   <div class="ui link card">
+    //     <div class="image">
+    //       <img src={image} alt="react" />
+    //     </div>
+    //     <div class="content">
+    //       <p class="header">React</p>
+    //     </div>
+    //   </div>
     // </div>
+
+    <div className="skill1">
+      <img className="shrinker" src={image} alt="react" />
+      <p>React</p>
+
+    </div>
   )
 }
 

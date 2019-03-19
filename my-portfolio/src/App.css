@@ -17,10 +17,40 @@
 }
 
 .skill {
-  display: inline-block;
+  /* display: inline-block; */
+  /* line-height: 1.7; */
+  background-color:transparent;
   border-radius: 1rem;
   width: 6.7rem;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+/* .content {
+  
+} */
+
+.skill1 {
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+    width: 6.7rem;
+    text-align: center;
+    margin-right: 0.6rem;
+    overflow: auto;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.skill1:hover {
+    transform: scaleY(1.05) scaleX(1.05);
+    transition: all 0.2s;
+    box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2);
+}
+
+
+.shrinker {
+  width: 100%;
 }
 
 .viewResume {
@@ -59,20 +89,6 @@ h3 {
   background-color: transparent;
   z-index: 2;
 }
-
-/* .item {
-  width: 9vw;
-  text-align: center;
-} */
-
-/* .lessWidth {
-  width: 25vw;
-} */
-
-/* a:hover {
-  color: white;
-  background-color:black;
-} */
 
 .socialMediaGit {
   font-size: 3rem;
@@ -247,28 +263,20 @@ h3 {
   color: black;
   padding: 1rem 0;
   margin-top: -9rem;
-  height: 300px;
+  height: 20vw;
   clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
-  /* display: flex;
-  flex-direction: column; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline; */
-  position: relative;
 }
 
 .footAlign { 
-  color: black;
-  position: absolute;
-  bottom: 0;
-  /* align-self: flex-end; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* margin-left: 50%;
-  margin-right: 50%; */
-  /* padding: 10px; */
+  color: white;
+  clear: both;
+  display: inline-block;
+  /* overflow: hidden; */
+  white-space: nowrap;
+  text-align: center;
 }
+
+
 
 
 /* @media only screen and (max-width: 768px) {
