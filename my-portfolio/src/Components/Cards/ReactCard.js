@@ -9,33 +9,49 @@ import sass from './sass.png'
 
 const ReactCard = (props) => {
   return (
-    <div className="row">
 
-    <div className="skill">
-      <img className="shrinker" src={react} alt="react" />
-      <p>React</p>
+    <div>
+    <div className="row">
+      <div className="skill">
+        <img className="shrinker" src={react} alt="react" />
+        <p>React</p>
+      </div>
+      <div className="skill">
+        <img className="shrinker" src={css} alt="css3" />
+        <p>React</p>
+      </div>
+      <div className="skill">
+        <img className="shrinker" src={html} alt="html5" />
+        <p>React</p>
+      </div>
+      <div className="skill">
+        <img className="shrinker" src={javascript} alt="javascript" />
+        <p>React</p>
+      </div>
+      <div className="skill">
+        <img className="shrinker" src={sass} alt="sass" />
+        <p>React</p>
+      </div>
     </div>
 
-      <div className="skill">
-        <img className="shrinker" src={css} alt="react" />
-        <p>React</p>
+      <div className="row">
+        <div className="skill">
+          <img className="shrinker" src={react} alt="react" />
+          <p>React</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={react} alt="react" />
+          <p>React</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={react} alt="react" />
+          <p>React</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={react} alt="react" />
+          <p>React</p>
+        </div>
       </div>
-
-      <div className="skill">
-        <img className="shrinker" src={html} alt="react" />
-        <p>React</p>
-      </div>
-
-      <div className="skill">
-        <img className="shrinker" src={javascript} alt="react" />
-        <p>React</p>
-      </div>
-
-      <div className="skill">
-        <img className="shrinker" src={sass} alt="react" />
-        <p>React</p>
-      </div>
-      
 
     </div>
 
