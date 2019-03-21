@@ -19,6 +19,10 @@ const ReactCard = (props) => {
 
 
     <div>
+      <div className="row">
+        <h2>Front End</h2>
+      </div>
+
     <div className="row">
       <div className="skill">
         <img className="shrinker" src={react} alt="react" />
