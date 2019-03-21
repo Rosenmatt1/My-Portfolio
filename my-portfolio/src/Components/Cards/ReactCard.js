@@ -12,43 +12,39 @@ import postgresql from './postgresql.png'
 import knex from './knex.png'
 import express from './express.png'
 
-
-
 const ReactCard = (props) => {
   return (
-
-
     <div>
       <div className="row">
         <h2>Front End</h2>
       </div>
 
-    <div className="row">
-      <div className="skill">
-        <img className="shrinker" src={react} alt="react" />
-        <p>React</p>
+      <div className="row">
+        <div className="skill">
+          <img className="shrinker" src={react} alt="react" />
+          <p>React</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={css} alt="css3" />
+          <p>CSS3</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={html} alt="html5" />
+          <p>HTML5</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={javascript} alt="javascript" />
+          <p>JavaScript</p>
+        </div>
+        <div className="skill">
+          <img className="shrinker" src={sass} alt="sass" />
+          <p>Sass</p>
+        </div>
       </div>
-      <div className="skill">
-        <img className="shrinker" src={css} alt="css3" />
-        <p>CSS3</p>
-      </div>
-      <div className="skill">
-        <img className="shrinker" src={html} alt="html5" />
-        <p>HTML5</p>
-      </div>
-      <div className="skill">
-        <img className="shrinker" src={javascript} alt="javascript" />
-        <p>JavaScript</p>
-      </div>
-      <div className="skill">
-        <img className="shrinker" src={sass} alt="sass" />
-        <p>Sass</p>
-      </div>
-    </div>
 
-<div className="row">
-    <h2>Back End</h2>
-</div>
+      <div className="row">
+        <h2>Back End</h2>
+      </div>
 
       <div className="row">
         <div className="skill">
@@ -74,8 +70,6 @@ const ReactCard = (props) => {
       </div>
 
     </div>
-
-    
   )
 }
 

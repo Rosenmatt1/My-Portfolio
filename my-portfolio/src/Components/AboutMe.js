@@ -23,14 +23,16 @@ const AboutMe = (props) => {
 
         <ReactCard />
 
-        <div className="ui four column centered grid">
-          <h3 className="meetMateo">View Resume</h3>
-          <a
-            target="_blank"
-            href={resume}
-            rel="noopener noreferrer">
-            <i className="fas fa-file-alt viewResume"></i>
-          </a>
+        <div className="centered row">
+          <div className="ui four column centered grid">
+            <h3 className="meetMateo">View Resume</h3>
+            <a
+              target="_blank"
+              href={resume}
+              rel="noopener noreferrer">
+              <i className="fas fa-file-alt viewResume"></i>
+            </a>
+          </div>
         </div>
 
       </div>
