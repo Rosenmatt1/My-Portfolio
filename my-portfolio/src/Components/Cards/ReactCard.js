@@ -17,6 +17,7 @@ import express from './express.png'
 const ReactCard = (props) => {
   return (
 
+
     <div>
     <div className="row">
       <div className="skill">
@@ -41,8 +42,11 @@ const ReactCard = (props) => {
       </div>
     </div>
 
+<div className="row">
+    <h2>Back End</h2>
+</div>
+
       <div className="row">
-        
         <div className="skill">
           <img className="shrinker" src={sql} alt="sql" />
           <p>SQL</p>
