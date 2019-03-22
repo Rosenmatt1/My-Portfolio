@@ -7,8 +7,10 @@ class Project5Uber extends Component {
   render() {
     return (
       <div className="ui grid">
-        <div className="ui center aligned grid eight wide column project-left project4">
-          <h3>Uber vs Lyft</h3>
+        <div className="ui center aligned grid eight wide column project-left">
+        <div className="row">
+          <h3 className="centered">Uber vs Lyft</h3>
+        </div>
           <h5>Tech Used:</h5>
           <ul>
             <li>Lyft API</li>
