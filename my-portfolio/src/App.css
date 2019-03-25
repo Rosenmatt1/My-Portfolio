@@ -149,26 +149,43 @@ h3 {
   height: 100%;
 }
 
+.grand {
+  width: 100vw;
+}
+
 .topper {
-  height: 20vw;
+  height: 4vw;
+}
+
+.spacer {
+  margin-top: 20px;
+  
+}
+
+p {
+  margin: 0; 
 }
 
 .project-left {
-  height: 60vh;
+  height: 40vh;
   background: white;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; 
+  align-items: center;  */
+  background-color: yellow;
+
 }
 
 .project-right {
-  height: 60vh;
+  height: 40vh;
   background: white;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center; 
   align-items: center;
+  background-color: pink;
+  
 }
 
 .divider {

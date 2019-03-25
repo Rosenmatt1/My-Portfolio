@@ -6,23 +6,23 @@ class Project5Uber extends Component {
 
   render() {
     return (
-      <div className="ui grid">
+      <div className="ui grid grand">
         <div className="topper row"></div>
-        <div className="row">
-
+        <div className="row spacer">
 
 
           <div className="ui centered aligned grid eight wide column project-left">
+
             <div className="centered row">
               <h3 className="centered">Uber vs Lyft</h3>
             </div>
+
             <h5>Tech Used:</h5>
-            <ul>
-              <li>OAuth</li>
-              <li>Lyft API</li>
-              <li>Uber API</li>
-              <li>Google Places API</li>
-            </ul>
+            <p>-OAuth</p>
+            <p>-Lyft API</p>
+            <p>-Uber API</p>
+            <p>-Google Places API</p>
+
             <button
               className="ui button"
               onClick={() => this.props.modal5()}
@@ -32,7 +32,7 @@ class Project5Uber extends Component {
           </div>
 
 
-          <div className="centered eight wide column project-right">
+          <div className="ui centered aligned grid eight wide column project-right">
             <div className="giphy" >
               <img
                 className="giphyImg"
@@ -50,3 +50,11 @@ class Project5Uber extends Component {
 }
 
 export default Project5Uber
+
+
+{/* <ul>
+                <li>OAuth</li>
+                <li>Lyft API</li>
+                <li>Uber API</li>
+                <li>Google Places API</li>
+              </ul> */}
