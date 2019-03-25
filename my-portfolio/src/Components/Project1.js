@@ -8,7 +8,6 @@ class Project1 extends Component {
     return (
       <div className="ui grid borderless middle aligned content">
 
-        
         <div className="ui centered aligned grid eight wide column project-left borderless">
           {/* <div className="middle aligned content"> */}
             <h3>JS Flashcards</h3>
@@ -29,7 +28,6 @@ class Project1 extends Component {
 
         <div className="column eight wide column centered project-right">
           <div className="giphy">
-            {/* <iframe src="https://media.giphy.com/media/fxyXMsfLq1JxlTqBPh/giphy.gif" title="project1" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */
             <img 
               className="giphyImg"
               src={gif} 

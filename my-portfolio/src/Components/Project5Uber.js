@@ -7,9 +7,13 @@ class Project5Uber extends Component {
   render() {
     return (
       <div className="ui grid">
+        <div className="topper row"></div>
         <div className="row">
+
+
+
           <div className="ui centered aligned grid eight wide column project-left">
-            <div className="row">
+            <div className="centered row">
               <h3 className="centered">Uber vs Lyft</h3>
             </div>
             <h5>Tech Used:</h5>
@@ -27,6 +31,7 @@ class Project5Uber extends Component {
           </button>
           </div>
 
+
           <div className="centered eight wide column project-right">
             <div className="giphy" >
               <img
@@ -36,7 +41,9 @@ class Project5Uber extends Component {
               />
             </div>
           </div>
+
         </div>
+        <div className="topper row"></div>
       </div>
     )
   }

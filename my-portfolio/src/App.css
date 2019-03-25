@@ -142,29 +142,28 @@ h3 {
   flex-direction: row;
   justify-content: center;
   /* align-items: center; */
-  z-index:4;
+  z-index: 4;
 }
 
 .giphy {
-  width: 50vw;
   height: 100%;
-  /* padding-bottom: 40%; */
-  position: absolute;
+}
+
+.topper {
+  height: 20vw;
 }
 
 .project-left {
   height: 60vh;
-  width: 50vw;
   background: white;
-  /* display: flex;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;  */
+  align-items: center; 
 }
 
 .project-right {
   height: 60vh;
-  width: 50vw;
   background: white;
   display: flex;
   flex-direction: column;
