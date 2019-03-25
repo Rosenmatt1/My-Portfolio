@@ -28,10 +28,10 @@ class Project5Uber extends Component {
           </button>
           </div>
 
-          <div className="ui centered aligned grid eight wide column project-right">
+          <div className="ui centered aligned grid eight wide column project-right spacer">
             <div className="giphy" >
               <img
-                className="giphyImg"
+                className="giphyImg ui fluid image"
                 src={gif}
                 alt="uber-vs-lyft-comparison"
               />

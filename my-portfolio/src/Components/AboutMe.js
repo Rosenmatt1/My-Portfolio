@@ -9,7 +9,7 @@ import ReactCard from './Cards/ReactCard.js'
 
 const AboutMe = (props) => {
   return (
-    <div className="ui grid">
+    <div className="ui stackable grid">
 
       <div className="centered eight wide column aboutMe">
         <div className="ui four column centered grid">
