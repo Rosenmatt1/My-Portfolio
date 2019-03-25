@@ -154,7 +154,7 @@ h3 {
 
 .project-left {
   height: 60vh;
-  width: 30%;
+  width: 50vw;
   background: white;
   /* display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ h3 {
 
 .project-right {
   height: 60vh;
-  width: 100%;
+  width: 50vw;
   background: white;
   display: flex;
   flex-direction: column;

@@ -7,36 +7,35 @@ class Project5Uber extends Component {
   render() {
     return (
       <div className="ui grid">
-        <div className="ui center aligned grid eight wide column project-left">
         <div className="row">
-          <h3 className="centered">Uber vs Lyft</h3>
-        </div>
-          <h5>Tech Used:</h5>
-          <ul>
-            <li>Lyft API</li>
-            <li>Uber API</li>
-            <li>Google Places API</li>
-          </ul>
-          <button
-            className="ui button"
-            onClick={() => this.props.modal5()}
-          >
-            Learn More...
+          <div className="ui centered aligned grid eight wide column project-left">
+            <div className="row">
+              <h3 className="centered">Uber vs Lyft</h3>
+            </div>
+            <h5>Tech Used:</h5>
+            <ul>
+              <li>OAuth</li>
+              <li>Lyft API</li>
+              <li>Uber API</li>
+              <li>Google Places API</li>
+            </ul>
+            <button
+              className="ui button"
+              onClick={() => this.props.modal5()}
+            >
+              Learn More...
           </button>
-        </div>
+          </div>
 
-        <div className="eight wide column project-right">
-
-          <div className="giphy" >
-            {/* <iframe src="https://media.giphy.com/media/5h265MKGKktjbrCeUn/giphy.gif" title="project4" width="100%" height="100%" frameBorder="0" className="giphy-embed" allowFullScreen></iframe> */
+          <div className="centered eight wide column project-right">
+            <div className="giphy" >
               <img
                 className="giphyImg"
                 src={gif}
                 alt="uber-vs-lyft-comparison"
               />
-            }
+            </div>
           </div>
-
         </div>
       </div>
     )
