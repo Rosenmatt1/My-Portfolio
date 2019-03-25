@@ -149,17 +149,8 @@ h3 {
   height: 100%;
 }
 
-.grand {
-  width: 100vw;
-}
-
-.topper {
-  height: 4vw;
-}
-
 .spacer {
-  margin-top: 20px;
-  
+  margin-top: 2.5vw;
 }
 
 p {
@@ -169,12 +160,7 @@ p {
 .project-left {
   height: 40vh;
   background: white;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;  */
-  background-color: yellow;
-
+  /* background-color: yellow; */
 }
 
 .project-right {
@@ -184,8 +170,7 @@ p {
   flex-direction: column;
   justify-content: center; 
   align-items: center;
-  background-color: pink;
-  
+  /* background-color: pink; */
 }
 
 .divider {

@@ -6,17 +6,14 @@ class Project5Uber extends Component {
 
   render() {
     return (
-      <div className="ui grid grand">
-        <div className="topper row"></div>
+      <div className="ui stackable grid">
         <div className="row spacer">
-
 
           <div className="ui centered aligned grid eight wide column project-left">
 
             <div className="centered row">
               <h3 className="centered">Uber vs Lyft</h3>
             </div>
-
             <h5>Tech Used:</h5>
             <p>-OAuth</p>
             <p>-Lyft API</p>
@@ -31,7 +28,6 @@ class Project5Uber extends Component {
           </button>
           </div>
 
-
           <div className="ui centered aligned grid eight wide column project-right">
             <div className="giphy" >
               <img
@@ -43,7 +39,6 @@ class Project5Uber extends Component {
           </div>
 
         </div>
-        <div className="topper row"></div>
       </div>
     )
   }
