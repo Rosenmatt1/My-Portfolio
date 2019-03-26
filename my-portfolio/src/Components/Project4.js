@@ -21,7 +21,7 @@ class Project4 extends Component {
 
             <button
               className="ui button"
-              onClick={() => this.props.modal5()}
+              onClick={() => this.props.modal4()}
             >
               Learn More...
             </button>
