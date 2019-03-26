@@ -177,13 +177,13 @@ p {
 }
 
 .project-left {
-  height: 40vh;
+  height: 50vh;
   background: white;
   /* background-color: yellow; */
 }
 
 .project-right {
-  height: 40vh;
+  height: 50vh;
   /* max-width: 100%; */
   background: white;
   display: flex;
