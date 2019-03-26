@@ -24,7 +24,7 @@ const AboutMe = (props) => {
         <ReactCard />
 
         <div className="centered resume row">
-          <div className="ui four column centered grid">
+          <div className="ui four column centered grid resume">
             <h3 >View Resume</h3>
             <a
               target="_blank"

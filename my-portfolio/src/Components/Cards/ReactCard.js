@@ -19,7 +19,7 @@ const ReactCard = (props) => {
         <h2>Front End</h2>
       </div>
 
-      <div className="row">
+      <div className="topender row">
         <div className="skill">
           <img className="shrinker" src={react} alt="react" />
           <p>React</p>
@@ -46,7 +46,7 @@ const ReactCard = (props) => {
         <h2>Back End</h2>
       </div>
 
-      <div className="row">
+      <div className="backender row">
         <div className="skill">
           <img className="shrinker" src={sql} alt="sql" />
           <p>SQL</p>

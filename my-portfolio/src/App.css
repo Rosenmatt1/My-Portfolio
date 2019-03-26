@@ -21,11 +21,15 @@
 }
 
 .back-end {
-  margin: 2vw;
+  margin-top: 2vw;
 }
 
-.resume {
-  margin: 3vw;
+/* .topender {
+  margin-bottom: 5vw;
+} */
+
+.backender {
+  margin-bottom: 5vw;
 }
 
 .skill {
@@ -53,6 +57,10 @@
   width: 80%;
 }
 
+.resume {
+  margin-top: 3vw;
+}
+
 .viewResume {
   font-size: 3rem;
   background-color: white;
@@ -61,8 +69,8 @@
 }
 
 .mateo {
-  height: 60vh;
-  width: 22vw;
+  height: 37vh;
+  width: 35vw;
   -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   margin-top: 1vw;
@@ -299,6 +307,11 @@ p {
   margin-top: 2vh;
 }
 
+.mateo {
+  height: 60vh;
+  width: 22vw;
+}
+
 .particles {
   height: 91vh;
 }
@@ -343,6 +356,11 @@ p {
   font-size: 3.2rem;
   margin-right: 2.5vw;
   margin-top: 1.7vh;
+}
+
+.mateo {
+  height: 60vh;
+  width: 22vw;
 }
 
 .particles {

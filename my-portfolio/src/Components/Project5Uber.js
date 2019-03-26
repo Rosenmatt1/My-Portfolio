@@ -25,7 +25,7 @@ class Project5Uber extends Component {
               onClick={() => this.props.modal5()}
             >
               Learn More...
-          </button>
+            </button>
           </div>
 
           <div className="ui centered aligned grid eight wide column project-right spacer">
@@ -45,11 +45,3 @@ class Project5Uber extends Component {
 }
 
 export default Project5Uber
-
-
-{/* <ul>
-                <li>OAuth</li>
-                <li>Lyft API</li>
-                <li>Uber API</li>
-                <li>Google Places API</li>
-              </ul> */}
