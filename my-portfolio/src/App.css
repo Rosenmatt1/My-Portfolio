@@ -1,8 +1,8 @@
 .ui.menu {
   margin: -.5rem;
-  height: 10vh;
+  height: 30px;
   overflow: auto;
-  min-height: 10vh;
+  /* min-height: 10vh; */
 }
 
 .aboutMe {
@@ -70,7 +70,6 @@
 
 .mateo {
   height: 37vh;
-  width: 35vw;
   -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   margin-top: 1vw;
@@ -99,14 +98,14 @@ h3 {
 }
 
 .socialMediaGit {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-right: 2vw;
   margin-top: 1.5vh;
   color:black;
 }
 
 .socialMediaLinked {
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-right: 3.5vw;
   margin-top: 1.5vh;
   color:black;
@@ -296,13 +295,13 @@ p {
 @media only screen and (min-width: 768px) {
 
 .socialMediaGit {
-  font-size: 5rem;
+  font-size: 2rem;
   margin-right: 1.3vw;
   margin-top: 1.5vh;
 }
 
 .socialMediaLinked {
-  font-size: 5rem;
+  font-size: 2rem;
   margin-right: 2.5vw;
   margin-top: 2vh;
 }
@@ -347,13 +346,13 @@ p {
 @media only screen and (min-width: 1000px) {
 
 .socialMediaGit {
-  font-size: 3.2rem;
+  font-size: 2rem;
   margin-right: .8vw;
   margin-top: 1.1vh;
 }
 
 .socialMediaLinked {
-  font-size: 3.2rem;
+  font-size: 2rem;
   margin-right: 2.5vw;
   margin-top: 1.7vh;
 }

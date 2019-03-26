@@ -22,14 +22,14 @@ const Header = (props) => {
           target="_blank"
           href="https://github.com/Rosenmatt1"
           rel="noopener noreferrer">
-          <i className="fab fa-github socialMediaGit"></i>
+          <i className="fab fa-github socialMediaGit ui fluid image"></i>
         </a>
 
         <a
           target="_blank"
           href="https://github.com/Rosenmatt1"
           rel="noopener noreferrer">
-          <i className="fab fa-linkedin-in socialMediaLinked"></i>
+          <i className="fab fa-linkedin-in socialMediaLinked ui fluid image"></i>
         </a>
 
       </div>
