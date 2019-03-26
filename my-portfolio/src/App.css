@@ -1,8 +1,7 @@
 .ui.menu {
   margin: -.5rem;
-  height: 30px;
+  height: 35px;
   overflow: auto;
-  /* min-height: 10vh; */
 }
 
 .aboutMe {
@@ -308,7 +307,6 @@ p {
 
 .mateo {
   height: 60vh;
-  width: 22vw;
 }
 
 .particles {
@@ -359,7 +357,6 @@ p {
 
 .mateo {
   height: 60vh;
-  width: 22vw;
 }
 
 .particles {
