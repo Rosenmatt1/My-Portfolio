@@ -101,10 +101,15 @@ class App extends Component {
           projectsButton={this.projectsButton}
         />
 
-        {this.state.aboutMeDisplay
+        {/* {this.state.aboutMeDisplay
           ? <AboutMe />
           : <ParticlesTop />
-        }
+        } */}
+
+        <ParticlesTop />
+        
+        <AboutMe />
+        
 
         {/* <Router>
           <div>
