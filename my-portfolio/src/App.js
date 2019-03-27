@@ -33,14 +33,14 @@ class App extends Component {
     }
   }
 
-  aboutMeButton = (e) => {
-    e.preventDefault()
-    console.log("about me")
-    this.setState({
-      aboutMeDisplay: true,
-      projectsDiplay: false
-    })
-  }
+  // aboutMeButton = (e) => {
+  //   e.preventDefault()
+  //   console.log("about me")
+  //   this.setState({
+  //     aboutMeDisplay: true,
+  //     projectsDiplay: false
+  //   })
+  // }
 
   projectsButton = (e) => {
     e.preventDefault()
@@ -98,8 +98,8 @@ class App extends Component {
       <div>
 
         <Header
-          aboutMeButton={this.aboutMeButton}
-          projectsButton={this.projectsButton}
+          // aboutMeButton={this.aboutMeButton}
+          // projectsButton={this.projectsButton}
         />
 
         {/* {this.state.aboutMeDisplay
