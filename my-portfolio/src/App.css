@@ -3,7 +3,7 @@ red color #b61924 */
 
 .ui.menu {
   margin: -.5rem;
-  height: 35px;
+  height: 40px;
   overflow: auto;
 }
 
@@ -149,7 +149,7 @@ h3 {
 
 .particles {
   background: #b61924;
-  height: 40vh;
+  height: 91vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
