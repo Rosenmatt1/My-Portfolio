@@ -12,7 +12,7 @@ import postgresql from './postgresql.png'
 import knex from './knex.png'
 import express from './express.png'
 
-const ReactCard = (props) => {
+const ReactCards = (props) => {
   return (
     <div>
       <div className="front-end row">
@@ -73,7 +73,7 @@ const ReactCard = (props) => {
   )
 }
 
-export default ReactCard
+export default ReactCards
 
 
 

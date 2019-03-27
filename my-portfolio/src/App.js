@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Components/Header.js'
 import ParticlesTop from './Components/ParticlesTop.js'
 import AboutMe from './Components/AboutMe.js'
+import ReactCards from './Components/Cards/ReactCards.js'
 import Project1 from './Components/Project1'
 import Project2 from './Components/Project2'
 import Project3 from './Components/Project3'
@@ -109,8 +110,9 @@ class App extends Component {
         <ParticlesTop />
         
         <AboutMe />
-        
 
+        <ReactCards />
+        
         {/* <Router>
           <div>
             <Header />
