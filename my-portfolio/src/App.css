@@ -19,6 +19,7 @@ red color #b61924 */
 
 .spacing {
   margin-top: 5vh;
+  word-break:normal;
 }
 
 .skill {
@@ -38,7 +39,6 @@ red color #b61924 */
 
 .skin {
   margin-bottom: 5vw;
-
 }
 
 .skill:hover {
@@ -328,8 +328,7 @@ p {
 
 .spacing {
   margin-top: 1vh;
-  word-break: break-all;
-  /* overflow: none;  */
+  word-break: normal;
 }
 
 .particles {
@@ -357,10 +356,6 @@ p {
 .borderWhite {
   padding: 4vw;
 }
-
-/* .spacer {
-  margin-top: 0vw;
-} */
 
 }
 
@@ -403,7 +398,7 @@ p {
 .spacing {
   margin-top: 10vh;
   margin-right: 5vw;
-  /* word-break: none; */
+  word-break: normal;
 }
 
 .particles {
@@ -439,9 +434,5 @@ p {
 .jsflash-right {
   height: 60vh;
 }
-
-/* .spacer {
-  margin-top: 0vw;
-} */
 
 }

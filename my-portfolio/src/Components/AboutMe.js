@@ -15,8 +15,9 @@ const AboutMe = (props) => {
         <div className="ui four column centered grid">
           <h2 className="meetMateo centered eight wide row">Meet Mateo</h2>
         </div>
+       
         <p className="spacing">I am a full stack developer that takes pride in making clean user friendly websites that are responsive, mobile friedly and run flawlessly.  I love finding efficient solutions to problems.  I am a health enthusiast that in my spare time enjoys nature, yoga, and dancing.</p>
-
+     
         <div className="centered resume row">
           <div className="ui four column centered grid resume">
             <h3 >View Resume</h3>
