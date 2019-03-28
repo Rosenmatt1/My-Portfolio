@@ -154,7 +154,7 @@ h3 {
 
 .particles {
   background: #b61924;
-  height: 91vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -185,7 +185,6 @@ p {
 .project-left {
   height: 50vh;
   background: white;
-  /* background-color: yellow; */
 }
 
 .project-right {
@@ -196,7 +195,6 @@ p {
   flex-direction: column;
   justify-content: center; 
   align-items: center;
-  /* background-color: pink; */
 }
 
 .divider {
@@ -302,13 +300,13 @@ p {
 .socialMediaGit {
   font-size: 2rem;
   margin-right: 1.3vw;
-  margin-top: 1.5vh;
+  /* margin-top: 1.5vh; */
 }
 
 .socialMediaLinked {
   font-size: 2rem;
   margin-right: 2.5vw;
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
 }
 
 .aboutMe {
@@ -326,14 +324,7 @@ p {
 }
 
 .meetMateo {
-  font-family: Lato, sans-serif;
-  text-align: center;
-  position: absolute;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-family: Lato, sans-serif;
-  letter-spacing: 4px;
-  background-color: transparent;
+  font-size: 24px;
   margin-bottom: 25vh;
 }
 
@@ -344,7 +335,7 @@ p {
 }
 
 .particles {
-  height: 100vh;
+  height: 80vh;
 }
 
 .parallaxHeight {
@@ -390,13 +381,7 @@ p {
 }
 
 .aboutMe {
-  height: 80vh;
-  background: white;
-  color:black;
-  font-family: Lato, sans-serif;
   font-size: 20px;
-  text-align: center;
-  overflow: auto;
 }
 
 .mateo {
@@ -404,14 +389,7 @@ p {
 }
 
 .meetMateo {
-  font-family: Lato, sans-serif;
-  text-align: center;
-  position: absolute;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-family: Lato, sans-serif;
-  letter-spacing: 4px;
-  background-color: transparent;
+  font-size: 22px;
   margin-bottom: 25vh;
 }
 
@@ -426,7 +404,7 @@ p {
 }
 
 .parallaxHeight{
-  height: 60vh;
+  height: 70vw;
 }
 
 .title {
@@ -445,6 +423,16 @@ p {
 
 .borderWhite {
   padding: 4vw;
+}
+
+.jsflash-left {
+  height: 60vh;
+  
+}
+
+.jsflash-right {
+  height: 60vh;
+ 
 }
 
 /* .spacer {
