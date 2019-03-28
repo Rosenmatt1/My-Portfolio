@@ -18,7 +18,7 @@ red color #b61924 */
 }
 
 .spacing {
-  margin-top: 1vh;
+  margin-top: 5vh;
 }
 
 .skill {
@@ -51,17 +51,6 @@ red color #b61924 */
   width: 80%;
 }
 
-.resume {
-  margin-top: 6vw;
-}
-
-.viewResume {
-  font-size: 3rem;
-  background-color: white;
-  color: black;
-  margin-top: 2vw;
-}
-
 .mateo {
   height: 37vh;
   -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
@@ -69,16 +58,26 @@ red color #b61924 */
   margin-top: 1vw;
 }
 
+.resume {
+  margin-top: 8vw;
+}
+
+.viewResume {
+  font-size: 3.1rem;
+  background-color: white;
+  color: black;
+  margin-top: 6vw;
+}
+
 .meetMateo {
   font-family: Lato, sans-serif;
   text-align: center;
   position: absolute;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 20px;
   font-family: Lato, sans-serif;
   letter-spacing: 4px;
   background-color: transparent;
-  margin-bottom: 8vh;
 }
 
 h3 {
@@ -238,7 +237,6 @@ p {
 .borderWhite {
   border: 1px solid white;
   background-color: transparent;
-  
   padding: 6vw;
   z-index: 2;
 }
@@ -331,7 +329,7 @@ p {
 .spacing {
   margin-top: 1vh;
   word-break: break-all;
-  overflow: none; 
+  /* overflow: none;  */
 }
 
 .particles {
@@ -388,15 +386,24 @@ p {
   height: 60vh;
 }
 
+.resume {
+  margin-top: 5vw;
+}
+
+.viewResume {
+  margin-top: 2vw;
+}
+
 .meetMateo {
   font-size: 22px;
   margin-bottom: 25vh;
+  /* margin-top: 25vh; */
 }
 
 .spacing {
   margin-top: 10vh;
   margin-right: 5vw;
-  word-break: none;
+  /* word-break: none; */
 }
 
 .particles {
@@ -427,12 +434,10 @@ p {
 
 .jsflash-left {
   height: 60vh;
-  
 }
 
 .jsflash-right {
   height: 60vh;
- 
 }
 
 /* .spacer {
