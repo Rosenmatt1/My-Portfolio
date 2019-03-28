@@ -8,17 +8,17 @@ red color #b61924 */
 }
 
 .aboutMe {
-  height: 80vh;
+  height: 100vh;
   background: white;
   color:black;
   font-family: Lato, sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   overflow: auto;
 }
 
 .spacing {
-  margin-top: 10vh;
+  margin-top: 1vh;
 }
 
 .skill {
@@ -34,6 +34,11 @@ red color #b61924 */
     font-weight: 300;
     /* line-height: 1.7; */
     line-height: 2.2;
+}
+
+.skin {
+  margin-bottom: 5vw;
+
 }
 
 .skill:hover {
@@ -69,11 +74,11 @@ red color #b61924 */
   text-align: center;
   position: absolute;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 12px;
   font-family: Lato, sans-serif;
   letter-spacing: 4px;
   background-color: transparent;
-  margin-bottom: 25vh;
+  margin-bottom: 8vh;
 }
 
 h3 {
@@ -99,14 +104,14 @@ h3 {
 }
 
 .socialMediaGit {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 2vw;
   margin-top: 1.5vh;
   color:black;
 }
 
 .socialMediaLinked {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 3.5vw;
   margin-top: 1.5vh;
   color:black;
@@ -167,7 +172,6 @@ h3 {
 
 .giphy {
   height: 100%;
-   /* max-width: 100vw; */
 }
 
 .spacer {
@@ -307,8 +311,36 @@ p {
   margin-top: 2vh;
 }
 
+.aboutMe {
+  height: 80vh;
+  background: white;
+  color:black;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* overflow: auto; */
+}
+
 .mateo {
-  height: 60vh;
+  height: 45vh;
+}
+
+.meetMateo {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  background-color: transparent;
+  margin-bottom: 25vh;
+}
+
+.spacing {
+  margin-top: 1vh;
+  word-break: break-all;
+  overflow: none; 
 }
 
 .particles {
@@ -357,8 +389,36 @@ p {
   margin-top: 1.7vh;
 }
 
+.aboutMe {
+  height: 80vh;
+  background: white;
+  color:black;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
 .mateo {
   height: 60vh;
+}
+
+.meetMateo {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  letter-spacing: 4px;
+  background-color: transparent;
+  margin-bottom: 25vh;
+}
+
+.spacing {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  word-break: none;
 }
 
 .particles {

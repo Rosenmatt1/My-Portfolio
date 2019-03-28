@@ -14,10 +14,9 @@ import express from './express.png'
 
 const ReactCards = (props) => {
   return (
-    <div className="ui stackable centered grid">
+    <div className="ui stackable centered grid skin">
       <div className="centered row">
 
-        <div className="centered eight wide column">
             <div className="skill">
               <img className="shrinker" src={react} alt="react" />
               <p>React</p>
@@ -38,9 +37,8 @@ const ReactCards = (props) => {
               <img className="shrinker" src={sass} alt="sass" />
               <p>Sass</p>
             </div>
-          </div>
+          {/* </div> */}
        
-        <div className="centered eight wide column">
             <div className="skill">
               <img className="shrinker" src={sql} alt="sql" />
               <p>SQL</p>
@@ -53,15 +51,14 @@ const ReactCards = (props) => {
               <img className="shrinker" src={knex} alt="knex" />
               <p>Knex</p>
             </div>
-            <div className="skill">
+            {/* <div className="skill">
               <img className="shrinker" src={express} alt="expressjs" />
               <p>Express</p>
-            </div>
+            </div> */}
             <div className="skill">
               <img className="shrinker" src={postgresql} alt="postgreSQL" />
               <p>PostgreSQL</p>
             </div>
-          </div>
 
       </div>
     </div>
