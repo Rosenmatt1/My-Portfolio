@@ -10,7 +10,7 @@ import nodejs from './nodejs.png'
 // import bootstrap from './bootstrap.png'
 import postgresql from './postgresql.png'
 import knex from './knex.png'
-import express from './express.png'
+// import express from './express.png'
 
 const ReactCards = (props) => {
   return (
