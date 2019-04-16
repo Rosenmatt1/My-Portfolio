@@ -254,22 +254,26 @@ p {
   margin-top: 5vh;
 }
 
-.myweatherbuddy {
+/* .myweatherbuddy {
   margin-top: 0vh;
+} */
+
+.spacerExtra {
+   margin-top: 10vw;
 }
 
 .react-inbox {
-  margin-top: 3vh
+  margin-top: 100px;
 }
 
-.jsFlashcards {
+/* .jsFlashcards {
   margin-top: 5vh;
-}
+} */
 
-.jsflash-right {
+/* .jsflash-right {
   margin: auto;
   margin-top: 10vw;
-}
+} */
 
 .boulevard {
   margin-top: 4vh;

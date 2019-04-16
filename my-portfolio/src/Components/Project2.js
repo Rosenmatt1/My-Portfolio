@@ -7,7 +7,7 @@ class Project2 extends Component {
   render() {
     return (
       <div className="ui stackable grid">
-        <div className="row spacer">
+        <div className="row spacerExtra">
 
           <div className="ui centered aligned grid eight wide column project-left">
             <div className="centered row">
@@ -26,7 +26,7 @@ class Project2 extends Component {
           </div>
 
 
-          <div className="ui centered aligned grid eight wide column project-right spacer">
+          <div className="ui centered aligned grid eight wide column project-right">
             <div className="giphy" >
               <img
                 className="ui fluid image"
