@@ -31,11 +31,11 @@ class Project6Weather extends Component {
           </div>
 
           <div className="ui centered aligned grid eight wide column project-right spacer">
-            <div className="giphy" >
+            <div className="giphyWeather" >
               <img
                 className="giphyImg ui fluid image"
                 src={gif}
-                alt="uber-vs-lyft-comparison"
+                alt="myweatherbuddy-react-native"
               />
             </div>
           </div>

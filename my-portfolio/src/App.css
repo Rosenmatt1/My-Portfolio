@@ -173,6 +173,15 @@ h3 {
   height: 100%;
 }
 
+.giphyWeather {
+  width: 19vw;
+  
+}
+
+.giphyImg {
+border-radius: 15px;
+}
+
 .spacer {
   margin-top: 2.5vw;
 }
@@ -243,6 +252,10 @@ p {
 
 .ubervslyft {
   margin-top: 5vh;
+}
+
+.myweatherbuddy {
+  margin-top: 0vh;
 }
 
 .react-inbox {
