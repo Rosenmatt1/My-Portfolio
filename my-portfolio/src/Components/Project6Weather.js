@@ -34,7 +34,7 @@ class Project6Weather extends Component {
 
             <button
               className="ui button"
-              onClick={() => this.props.modal5()}
+              onClick={() => this.props.modal6()}
             >
               Learn More...
             </button>
