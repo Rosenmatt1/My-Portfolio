@@ -25,12 +25,12 @@ class ModalProject6 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Uber vs Lyft</div>
-                <p>This is a web app called <a
+                <p>This is a mobile app called <a
                   href="https://www.youtube.com/watch?v=zD2TZHcZXT8"
                   target="_blank"
-                  rel="noopener noreferrer">Better Ride
-                </a> that pulls live data from the Uber and Lyft API to compare price and estimated time of arrival.  The input fields for the address utilize an API call to the Google places API to use predicitve autocomplete and get the longitiude and latitude needs for the Uber and Lyft requests. </p>
-                <p>Try it out...</p>
+                  rel="noopener noreferrer">MyWeather Buddy
+                </a> that allows users to create weather alerts based on their criteria and receive the weather alerts as text messages. </p>
+                <p>Check it out...</p>
               </div>
             </div>
             <div className="actions">
