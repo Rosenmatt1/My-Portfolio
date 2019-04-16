@@ -27,6 +27,7 @@ class Project3 extends Component {
             <p>-React.js</p>
             <p>HTML5/CSS3</p>
             <p>-JavaScript</p>
+            <p>-Bootstrap</p>
             <p>-DOM Manipulation</p>
             <p>-Responsive Web Design</p>
 
