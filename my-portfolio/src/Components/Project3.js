@@ -25,6 +25,7 @@ class Project3 extends Component {
             </div>
             <h5>Tech Used:</h5>
             <p>-React.js</p>
+            <p>HTML5/CSS3</p>
             <p>-JavaScript</p>
             <p>-DOM Manipulation</p>
             <p>-Responsive Web Design</p>
