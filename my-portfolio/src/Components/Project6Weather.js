@@ -9,6 +9,16 @@ class Project6Weather extends Component {
       <div className="ui stackable grid">
         <div className="row spacer">
 
+          <div className="ui centered aligned grid eight wide column project-right spacer">
+            <div className="giphyWeather" >
+              <img
+                className="giphyImg ui fluid image"
+                src={gif}
+                alt="myweatherbuddy-react-native"
+              />
+            </div>
+          </div>
+
           <div className="ui centered aligned grid eight wide column project-left">
 
             <div className="centered row">
@@ -28,16 +38,6 @@ class Project6Weather extends Component {
             >
               Learn More...
             </button>
-          </div>
-
-          <div className="ui centered aligned grid eight wide column project-right spacer">
-            <div className="giphyWeather" >
-              <img
-                className="giphyImg ui fluid image"
-                src={gif}
-                alt="myweatherbuddy-react-native"
-              />
-            </div>
           </div>
 
         </div>
