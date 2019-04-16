@@ -12,7 +12,7 @@ class Project6Weather extends Component {
           <div className="ui centered aligned grid eight wide column project-right spacer">
             <div className="giphyWeather" >
               <img
-                className="ui fluid image"
+                className="gifImg ui fluid image"
                 src={gif}
                 alt="myweatherbuddy-react-native"
               />
