@@ -12,13 +12,15 @@ class Project6Weather extends Component {
           <div className="ui centered aligned grid eight wide column project-left">
 
             <div className="centered row">
-              <h3 className="centered"></h3>
+              <h3 className="centered">MyWeather Buddy</h3>
             </div>
             <h5>Tech Used:</h5>
-            <p>-OAuth</p>
-            <p>-Lyft API</p>
-            <p>-Uber API</p>
-            <p>-Google Places API</p>
+            <p>-React Native</p>
+            <p>-JavaScript</p>
+            <p>-Node.js/PostgreSQL/Express/Knex</p>
+            <p>-GoeCoordinates API</p>
+            <p>-OpenWeather API</p>
+            <p>-Twilio API</p>
 
             <button
               className="ui button"
