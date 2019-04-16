@@ -191,6 +191,10 @@ class App extends Component {
           modal2={this.modal2}
         />
 
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider bottomBorder" />
+        </div>
+
         {this.state.modal3Toggle
           ? <ModalProject3
             modalOff={this.modalOff}
