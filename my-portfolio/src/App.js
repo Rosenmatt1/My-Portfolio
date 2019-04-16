@@ -147,6 +147,10 @@ class App extends Component {
           modal5={this.modal5}
         />
 
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider bottomBorder" />
+        </div>
+
         {this.state.modal6Toggle
           ? <ModalProject6
             modalOff={this.modalOff}
@@ -175,6 +179,8 @@ class App extends Component {
           <div className="ui centered centered divider bottomBorder" />
         </div>
 
+        <ParallaxMiddle />
+
         {this.state.modal2Toggle
           ? <ModalProject2
             modalOff={this.modalOff}
@@ -184,8 +190,6 @@ class App extends Component {
         <Project2
           modal2={this.modal2}
         />
-
-        <ParallaxMiddle />
 
         {this.state.modal3Toggle
           ? <ModalProject3
