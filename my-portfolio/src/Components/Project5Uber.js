@@ -34,7 +34,7 @@ class Project5Uber extends Component {
           <div className="ui centered aligned grid eight wide column project-right spacer">
             <div className="giphy" >
               <img
-                className="giphyImg ui fluid image"
+                className="ui fluid image"
                 src={gif}
                 alt="uber-vs-lyft-comparison"
               />
