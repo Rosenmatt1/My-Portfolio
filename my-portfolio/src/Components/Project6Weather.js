@@ -17,10 +17,10 @@ class Project6Weather extends Component {
             <h5>Tech Used:</h5>
             <p>-React Native</p>
             <p>-JavaScript</p>
-            <p>-Node.js/PostgreSQL/Express/Knex</p>
-            <p>-GoeCoordinates API</p>
-            <p>-OpenWeather API</p>
             <p>-Twilio API</p>
+            <p>-OpenWeather API</p>
+            <p>-GoeCoordinates API</p>
+            <p>-Node.js/PostgreSQL/Express/Knex</p>
 
             <button
               className="ui button"

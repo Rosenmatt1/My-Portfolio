@@ -15,10 +15,13 @@ class Project5Uber extends Component {
               <h3 className="centered">Uber vs Lyft</h3>
             </div>
             <h5>Tech Used:</h5>
+            <p>-React.js</p>
+            <p>-JavaScript</p>
             <p>-OAuth</p>
             <p>-Lyft API</p>
             <p>-Uber API</p>
             <p>-Google Places API</p>
+            <p>-Node.js/PostgreSQL/Express/Knex</p>
 
             <button
               className="ui button"
