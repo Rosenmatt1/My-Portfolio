@@ -11,7 +11,7 @@ class Project2 extends Component {
 
           <div className="ui centered aligned grid eight wide column project-left">
             <div className="centered row">
-              <h3 className="centered">ReactInbox</h3>
+            <h3 className="centered">ReactInbox</h3>
             </div>
             <h5>Tech Used:</h5>
             <p>-React.js</p>

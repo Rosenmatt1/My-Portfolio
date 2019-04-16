@@ -9,7 +9,7 @@ class Project1 extends Component {
       <div className="ui stackable grid">
         <div className="row spacer">
 
-          <div className="ui centered aligned grid eight wide column jsflash-right">
+          <div className="ui centered aligned grid eight wide column project-right">
             <div className="centered row">
               <h3 className="centered">JS Flashcards</h3>
             </div>
@@ -27,7 +27,7 @@ class Project1 extends Component {
             </button>
           </div>
 
-          <div className="ui centered aligned grid eight wide column jsflash-left spacer">
+          <div className="ui centered aligned grid eight wide column project-left spacer">
             <div className="giphy" >
               <img
                 className="ui fluid image"
