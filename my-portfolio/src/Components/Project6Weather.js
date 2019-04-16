@@ -7,12 +7,12 @@ class Project6Weather extends Component {
   render() {
     return (
       <div className="ui stackable grid">
-        <div className="row spacer">
+        <div className="row">
 
           <div className="ui centered aligned grid eight wide column project-right spacer">
-            <div className="giphyWeather" >
+            <div className=" giphyWeather" >
               <img
-                className="giphyImg ui fluid image"
+                className="gipImg ui fluid image"
                 src={gif}
                 alt="myweatherbuddy-react-native"
               />
@@ -21,7 +21,7 @@ class Project6Weather extends Component {
 
           <div className="ui centered aligned grid eight wide column project-left">
 
-            <div className="centered row">
+            <div className="centered row spacer">
               <h3 className="centered">MyWeather Buddy</h3>
             </div>
             <h5>Tech Used:</h5>

@@ -174,13 +174,15 @@ h3 {
 }
 
 .giphyWeather {
-  width: 19vw;
-  
+  width: 18vw;
+  margin: auto;
 }
 
-.giphyImg {
+.gipImg {
 border-radius: 15px;
 }
+
+
 
 .spacer {
   margin-top: 2.5vw;
