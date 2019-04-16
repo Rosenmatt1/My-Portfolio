@@ -145,6 +145,16 @@ class App extends Component {
           modal5={this.modal5}
         />
 
+        {this.state.modal6Toggle
+          ? <ModalProject6
+            modalOff={this.modalOff}
+          />
+          : ""}
+
+        <Project6Weather
+          modal6={this.modal6}
+        />
+
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider bottomBorder" />
         </div>
