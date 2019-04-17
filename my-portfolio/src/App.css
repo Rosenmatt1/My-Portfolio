@@ -187,7 +187,8 @@ border-radius: 15px;
 }
 
 .spacerExtra {
-   margin-top: 8vw;
+   margin-top: 4vw;
+   margin-bottom: 4vw;
    /* margin-bottom: 1px; */
 }
 
@@ -259,22 +260,11 @@ p {
   margin-top: 5vh;
 }
 
-/* .myweatherbuddy {
-  margin-top: 0vh;
-} */
 
 .react-inbox {
   margin-top: 100px;
 }
 
-/* .jsFlashcards {
-  margin-top: 5vh;
-} */
-
-/* .jsflash-right {
-  margin: auto;
-  margin-top: 10vw;
-} */
 
 .boulevard {
   margin-top: 4vh;

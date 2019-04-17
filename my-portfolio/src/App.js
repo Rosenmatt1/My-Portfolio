@@ -148,7 +148,7 @@ class App extends Component {
         />
 
         <div className="ui ten column centered grid">
-          <div className="ui centered centered divider bottomBorder" />
+          <div className="ui centered centered divider" />
         </div>
 
         {this.state.modal6Toggle
@@ -162,7 +162,7 @@ class App extends Component {
         />
 
         <div className="ui ten column centered grid">
-          <div className="ui centered centered divider bottomBorder" />
+          <div className="ui centered centered divider" />
         </div>
 
         {this.state.modal1Toggle
@@ -176,7 +176,7 @@ class App extends Component {
         />
 
         <div className="ui ten column centered grid">
-          <div className="ui centered centered divider bottomBorder" />
+          <div className="ui centered centered divider" />
         </div>
 
         <ParallaxMiddle />
@@ -192,7 +192,7 @@ class App extends Component {
         />
 
         <div className="ui ten column centered grid">
-          <div className="ui centered centered divider bottomBorder" />
+          <div className="ui centered centered divider" />
         </div>
 
         {this.state.modal3Toggle
@@ -206,7 +206,7 @@ class App extends Component {
         />
 
         <div className="ui ten column centered grid">
-          <div className="ui centered centered divider bottomBorder" />
+          <div className="ui centered centered divider" />
         </div>
 
         {this.state.modal4Toggle
