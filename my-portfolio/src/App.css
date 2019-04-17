@@ -186,6 +186,11 @@ border-radius: 15px;
   margin-top: 2.5vw;
 }
 
+.spacerExtra {
+   margin-top: 8vw;
+   /* margin-bottom: 1px; */
+}
+
 p {
   margin: 0; 
 }
@@ -257,10 +262,6 @@ p {
 /* .myweatherbuddy {
   margin-top: 0vh;
 } */
-
-.spacerExtra {
-   margin-top: 10vw;
-}
 
 .react-inbox {
   margin-top: 100px;
