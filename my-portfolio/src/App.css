@@ -210,6 +210,26 @@ p {
   align-items: center;
 }
 
+.project-leftRI {
+  height: 40vh;
+  /* max-width: 100%; */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.project-rightRI {
+  height: 40vh;
+  /* max-width: 100%; */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
 .divider {
   width: 75vw;
 }
