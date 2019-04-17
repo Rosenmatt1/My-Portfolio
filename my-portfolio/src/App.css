@@ -3,8 +3,8 @@ red color #b61924 */
 
 .ui.menu {
   margin: -.5rem;
-  height: 40px;
-  overflow: auto;
+  height: 50px;
+  overflow: none;
 }
 
 .aboutMe {
@@ -105,14 +105,16 @@ h3 {
 .socialMediaGit {
   font-size: 1.5rem;
   margin-right: 2vw;
-  margin-top: 1.5vh;
+  margin-top: 50%;
+  margin-bottom: 50%;
   color:black;
 }
 
 .socialMediaLinked {
   font-size: 1.5rem;
   margin-right: 3.5vw;
-  margin-top: 1.5vh;
+  margin-top: 50%;
+  margin-bottom: 50%;
   color:black;
 }
 
@@ -195,20 +197,19 @@ p {
   margin: 0; 
 }
 
-.project-left {
+/* .project-left {
   height: 50vh;
   background: white;
 }
 
 .project-right {
   height: 50vh;
-  /* max-width: 100%; */
   background: white;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center;
-}
+} */
 
 .divider {
   width: 75vw;
