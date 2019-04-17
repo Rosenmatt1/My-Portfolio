@@ -9,7 +9,7 @@ class Project5Uber extends Component {
       <div className="ui stackable grid">
         <div className="row spacer">
 
-          <div className="ui centered aligned grid eight wide column project-left">
+          <div className="ui centered aligned grid eight wide column ">
 
             <div className="centered row">
               <h3 className="centered">Uber vs Lyft</h3>
@@ -31,7 +31,7 @@ class Project5Uber extends Component {
             </button>
           </div>
 
-          <div className="ui centered aligned grid eight wide column project-right spacer">
+          <div className="ui centered aligned grid eight wide column spacer">
             <div className="giphy" >
               <img
                 className="ui fluid image"

@@ -9,7 +9,7 @@ class Project4 extends Component {
       <div className="ui stackable grid">
         <div className="row spacer">
 
-          <div className="ui centered aligned grid eight wide column project-left">
+          <div className="ui centered aligned grid eight wide column">
 
             <div className="centered row">
               <h3 className="centered">Chuck Norris Joke Generator</h3>

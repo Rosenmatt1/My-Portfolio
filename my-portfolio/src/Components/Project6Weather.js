@@ -9,7 +9,7 @@ class Project6Weather extends Component {
       <div className="ui stackable grid">
         <div className="row">
 
-          <div className="ui centered aligned grid eight wide column project-right spacer">
+          <div className="ui centered aligned grid eight wide column  spacer">
             <div className="giphyWeather" >
               <img
                 className="gifImg ui fluid image"
@@ -19,7 +19,7 @@ class Project6Weather extends Component {
             </div>
           </div>
 
-          <div className="ui centered aligned grid eight wide column project-left">
+          <div className="ui centered aligned grid eight wide column">
 
             <div className="centered row spacer">
               <h3 className="centered">MyWeather Buddy</h3>
