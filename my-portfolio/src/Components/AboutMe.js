@@ -30,7 +30,7 @@ const AboutMe = (props) => {
           </div>
         </div>
       </div>
-      
+
     </div >
   )
 }

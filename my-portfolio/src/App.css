@@ -11,7 +11,7 @@
   font-family: Lato, sans-serif;
   font-size: 12px;
   text-align: center;
-  overflow: auto;
+  overflow: none;
 }
 
 .spacing {
@@ -29,7 +29,6 @@
     overflow: auto;
     font-family: "Varela Round", sans-serif;
     font-weight: 300;
-    /* line-height: 1.7; */
     line-height: 2.2;
 }
 
@@ -56,6 +55,7 @@
 
 .resume {
   margin-top: 8vw;
+  margin-bottom: 2vw;
 }
 
 .viewResume {
@@ -63,6 +63,7 @@
   background-color: white;
   color: black;
   margin-top: 6vw;
+  margin-bottom: 2vw;
 }
 
 .meetMateo {
