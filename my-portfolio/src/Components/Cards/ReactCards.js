@@ -12,7 +12,7 @@ import postgresql from './postgresql.png'
 import knex from './knex.png'
 // import express from './express.png'
 
-const ReactCards = (props) => {
+const ReactCards = () => {
   return (
     <div className="ui stackable centered grid skin">
       <div className="centered row">
