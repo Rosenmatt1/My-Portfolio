@@ -21,7 +21,7 @@ class ModalProject6 extends Component {
                 <img
                   className="gifImg"
                   src={image}
-                  alt="uber-vs-lyft-price-compare" />
+                  alt="react-native-denver-developer" />
               </div>
               <div className="description">
                 <div className="ui header">Uber vs Lyft</div>
