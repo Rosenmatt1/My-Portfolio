@@ -24,12 +24,12 @@ class ModalProject6 extends Component {
                   alt="react-native-denver-developer" />
               </div>
               <div className="description">
-                <div className="ui header">Uber vs Lyft</div>
+                <div className="ui header">MyWeather Buddy</div>
                 <p>This is a mobile app called <a
                   href="https://www.youtube.com/watch?v=zD2TZHcZXT8"
                   target="_blank"
                   rel="noopener noreferrer">MyWeather Buddy
-                </a> that allows users to create weather alerts based on their criteria and receive the weather alerts as text messages. </p>
+                </a> that allows users to set and receive text message weather alerts based on the criteria of their choosing. Built with React Native and JavaScript on the front end. On the back end is Node.js, Express, Knex, PostgreSQL, and KNEX. The app utilizes the Twilio API to send the weather alerts as text messages. </p>
                 <p>Check it out...</p>
               </div>
             </div>
@@ -43,7 +43,7 @@ class ModalProject6 extends Component {
 
               <a
                 target="_blank"
-                href="https://ubervslyftapp.firebaseapp.com/"
+                href="https://www.youtube.com/watch?v=zD2TZHcZXT8"
                 rel="noopener noreferrer"
                 onClick={() => this.props.modalOff()}
               >
