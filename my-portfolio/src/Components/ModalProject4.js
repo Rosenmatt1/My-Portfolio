@@ -29,7 +29,7 @@ class ModalProject4 extends Component {
                   href="https://chuck-norris-quote-generator.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer">Hello Chuck
-                </a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume up a bit for the sound effect.  Get ready to laugh!</p>
+                </a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume up a bit for the sound effect.  Get ready to laugh!  **Please allow about 7 seconds for the dynamically populated jokes to load from the Heroku database.**  </p>
                 <p>Try it out...</p>
               </div>
             </div>
