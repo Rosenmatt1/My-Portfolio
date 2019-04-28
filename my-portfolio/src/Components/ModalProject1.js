@@ -25,7 +25,7 @@ class ModalProject1 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Learning JavaScript just got Easy</div>
-                <p>This is a fully functional crud app called <a href="https://js-flash-cards.firebaseapp.com/" target="_blank" rel="noopener noreferrer">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.  The site is responsive, mobile friendly, and runs flawlessly.</p>
+                <p>This is a fully functional crud app called <a href="https://js-flash-cards.firebaseapp.com/" target="_blank" rel="noopener noreferrer">JS FlashCards</a> that allows the user to study JavaScript by creating, editing, and deleting flashcards.  The site is responsive, mobile friendly, and runs flawlessly.   **Please allow about 7 seconds for the dynamically populated data to load from the Heroku database.** </p>
                 <p>Try it for yourself...</p>
               </div>
             </div>
