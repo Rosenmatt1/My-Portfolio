@@ -49,18 +49,8 @@ class App extends Component {
     fetch(ChuckUrl)
     fetch(EatsUrl)
     fetch(WeatherUrl)
-
     this.setState({ jsServerWakeUp: true })
   }
-
-  // aboutMeButton = (e) => {
-  //   e.preventDefault()
-  //   console.log("about me")
-  //   this.setState({
-  //     aboutMeDisplay: true,
-  //     projectsDiplay: false
-  //   })
-  // }
 
   projectsButton = (e) => {
     e.preventDefault()
@@ -75,8 +65,6 @@ class App extends Component {
     this.setState({
       modal1Toggle: true
     })
-    // ('.ui.modal')
-    //   .modal('show')
   }
 
   modal2 = () => {
