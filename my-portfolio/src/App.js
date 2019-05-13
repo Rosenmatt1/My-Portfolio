@@ -23,6 +23,8 @@ import Footer from './Components/Footer.js'
 
 // const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
 // const InboxUrl = "https://react-email-inbox.herokuapp.com/api/messages/"
+// const ChuckUrl = "https://chuck-norris-quote-generator.herokuapp.com/jokes"
+const EatsUrl = "https://galvanize-eats-api.herokuapp.com/menu"
 
 class App extends Component {
   constructor() {
@@ -42,7 +44,9 @@ class App extends Component {
 
   componentDidMount() {
     // fetch(JSurl)
-    fetch(InboxUrl)
+    // fetch(InboxUrl)
+    // fetch(ChuckUrl)
+    fetch(EatsUrl)
     this.setState({ jsServerWakeUp: true })
   }
 
