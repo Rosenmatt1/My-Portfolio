@@ -21,7 +21,8 @@ import ModalProject5 from './Components/ModalProject5'
 import ModalProject6 from './Components/ModalProject6'
 import Footer from './Components/Footer.js'
 
-const url = "https://jsflashcards.herokuapp.com/flashcards/"
+// const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
+// const InboxUrl = "https://react-email-inbox.herokuapp.com/api/messages/"
 
 class App extends Component {
   constructor() {
@@ -39,8 +40,9 @@ class App extends Component {
     }
   }
 
-  async componentDidMount() {
-    fetch(url)
+  componentDidMount() {
+    // fetch(JSurl)
+    fetch(InboxUrl)
     this.setState({ jsServerWakeUp: true })
   }
 
