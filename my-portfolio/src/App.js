@@ -21,6 +21,8 @@ import ModalProject5 from './Components/ModalProject5'
 import ModalProject6 from './Components/ModalProject6'
 import Footer from './Components/Footer.js'
 
+const url = "https://jsflashcards.herokuapp.com/flashcards/"
+
 class App extends Component {
   constructor() {
     super()
@@ -32,8 +34,14 @@ class App extends Component {
       modal5Toggle: false,
       modal6Toggle: false,
       aboutMeDisplay: false,
-      projectsDiplay: true
+      projectsDiplay: true,
+      jsServerWakeUp: false
     }
+  }
+
+  async componentDidMount() {
+    fetch(url)
+    this.setState({ jsServerWakeUp: true })
   }
 
   // aboutMeButton = (e) => {
