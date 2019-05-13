@@ -21,10 +21,11 @@ import ModalProject5 from './Components/ModalProject5'
 import ModalProject6 from './Components/ModalProject6'
 import Footer from './Components/Footer.js'
 
-// const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
-// const InboxUrl = "https://react-email-inbox.herokuapp.com/api/messages/"
-// const ChuckUrl = "https://chuck-norris-quote-generator.herokuapp.com/jokes"
+const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
+const InboxUrl = "https://react-email-inbox.herokuapp.com/api/messages/"
+const ChuckUrl = "https://chuck-norris-quote-generator.herokuapp.com/jokes"
 const EatsUrl = "https://galvanize-eats-api.herokuapp.com/menu"
+const WeatherUrl = "https://myweatherbuddy.herokuapp.com/"
 
 class App extends Component {
   constructor() {
@@ -43,10 +44,12 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // fetch(JSurl)
-    // fetch(InboxUrl)
-    // fetch(ChuckUrl)
+    fetch(JSurl)
+    fetch(InboxUrl)
+    fetch(ChuckUrl)
     fetch(EatsUrl)
+    fetch(WeatherUrl)
+
     this.setState({ jsServerWakeUp: true })
   }
 
