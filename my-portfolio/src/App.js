@@ -39,7 +39,7 @@ class App extends Component {
       modal6Toggle: false,
       aboutMeDisplay: false,
       projectsDiplay: true,
-      jsServerWakeUp: false
+      serverWakeUp: false
     }
   }
 
@@ -49,7 +49,7 @@ class App extends Component {
     fetch(ChuckUrl)
     fetch(EatsUrl)
     fetch(WeatherUrl)
-    this.setState({ jsServerWakeUp: true })
+    this.setState({ serverWakeUp: true })
   }
 
   projectsButton = (e) => {
