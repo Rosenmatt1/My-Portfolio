@@ -11,6 +11,7 @@ import Project3 from './Components/Project3'
 import Project4 from './Components/Project4'
 import Project5Uber from './Components/Project5Uber'
 import Project6Weather from './Components/Project6Weather'
+import Project7Form from './Components/Project7Form'
 import ParallaxTop from './Components/Parallax.js'
 import ParallaxMiddle from './Components/Parallax-Middle.js'
 import ModalProject1 from './Components/ModalProject1'
@@ -147,6 +148,8 @@ class App extends Component {
             modalOff={this.modalOff}
           />
           : ""}
+
+        <Project7Form />
 
         <Project5Uber
           modal5={this.modal5}

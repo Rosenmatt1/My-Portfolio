@@ -10,11 +10,11 @@ class Project7Form extends Component {
         <div className="row">
 
           <div className="ui centered aligned grid eight wide column  spacer">
-            <div className="giphyWeather" >
+            <div className="" >
               <img
                 className="gifImg ui fluid image"
                 src={gif}
-                alt="myweatherbuddy-react-native"
+                alt="professional-long-form-settings"
               />
             </div>
           </div>
