@@ -24,8 +24,8 @@ class ModalProject7Form extends Component {
                   alt="react-email-inbox-project" />
               </div>
               <div className="description">
-                <div className="ui header">Checking your email just got cool.</div>
-                <p>This project is a fully function email inbox built with React.js, JavaScript, and Bootstrap called <a href="https://email-inbox-react.firebaseapp.com/" target="_blank" rel="noopener noreferrer">React Inbox.</a> The site is responsive, mobile friendly, and runs flawlessly. </p>
+                <div className="ui header">Long Form Pro</div>
+                <p> An elegant mock fully functional long form settings page called <a href="https://long-form-pro.firebaseapp.com/" target="_blank" rel="noopener noreferrer">Long Form Pro. </a> The site was built from sratch utilizing React.js, JavaScript, and CSS3.  Click around and test out the functionality.  Add a new user by clicking the "choose file" link twice in the Search Ads Accounts sections.  Also put in some password inputs to test out the password functionality. </p>
                 <p>Try it out for yourself...</p>
               </div>
             </div>
@@ -40,7 +40,7 @@ class ModalProject7Form extends Component {
 
               <a
                 onClick={() => this.props.modalOff()}
-                href="https://email-inbox-react.firebaseapp.com/" target="_blank"
+                href="https://long-form-pro.firebaseapp.com/" target="_blank"
                 rel="noopener noreferrer">
                 <div className="ui red right labeled icon button">
                   Visit Site

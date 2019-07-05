@@ -25,7 +25,7 @@ class ModalProject2 extends Component {
               </div>
               <div className="description">
                 <div className="ui header">Checking your email just got cool.</div>
-                <p>This project is a fully function email inbox built with React.js, JavaScript, and Bootstrap called <a href="https://email-inbox-react.firebaseapp.com/" target="_blank" rel="noopener noreferrer">React Inbox.</a> The site is responsive, mobile friendly, and runs flawlessly. </p>
+                <p>This project is a fully functional email inbox built with React.js, JavaScript, and Bootstrap called <a href="https://email-inbox-react.firebaseapp.com/" target="_blank" rel="noopener noreferrer">React Inbox.</a> The site is responsive, mobile friendly, and runs flawlessly. </p>
                 <p>Try it out for yourself...</p>
               </div>
             </div>
