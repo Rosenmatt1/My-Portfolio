@@ -29,7 +29,7 @@ class ModalProject6 extends Component {
                   href="https://www.youtube.com/watch?v=zD2TZHcZXT8"
                   target="_blank"
                   rel="noopener noreferrer">MyWeather Buddy
-                </a> that allows users to set and receive text message weather alerts based on the criteria of their choosing. Built with React Native and JavaScript on the front end. On the back end is Node.js, Express, Knex, PostgreSQL, and KNEX. The app utilizes the Twilio API to send the weather alerts as text messages. </p>
+                </a> that allows users to set and receive text message weather alerts based on the criteria of their choosing. Built with React Native and JavaScript on the front end. On the back end is Node.js, Express, Knex, PostgreSQL, and KNEX. The app utilizes the Twilio API to send the weather alerts as text messages. Review the front-end code base here:<a href="https://github.com/Rosenmatt1/my-weather-buddy" target="_blank" rel="noopener noreferrer"> front end Github. </a> Review the back-end code base here:<a href="https://github.com/Rosenmatt1/back-end-weather-buddy" target="_blank" rel="noopener noreferrer"> back end Github. </a></p>
                 <p>Check it out...</p>
               </div>
             </div>

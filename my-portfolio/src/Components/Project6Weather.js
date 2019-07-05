@@ -40,8 +40,6 @@ class Project6Weather extends Component {
             </div>
           </div>
 
-
-
         </div>
       </div>
     )
