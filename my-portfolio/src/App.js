@@ -114,8 +114,8 @@ class App extends Component {
       <div>
 
         <Header
-          // aboutMeButton={this.aboutMeButton}
-          // projectsButton={this.projectsButton}
+        // aboutMeButton={this.aboutMeButton}
+        // projectsButton={this.projectsButton}
         />
 
         {/* {this.state.aboutMeDisplay
@@ -124,11 +124,11 @@ class App extends Component {
         } */}
 
         <ParticlesTop />
-        
+
         <AboutMe />
 
         <ReactCards />
-        
+
         {/* <Router>
           <div>
             <Header />
