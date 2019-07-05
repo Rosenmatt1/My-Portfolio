@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './Assets/react-inbox.gif'
+import gif from './Assets/Long-Form-Pro.gif'
 
 class ModalProject7Form extends Component {
 
@@ -20,12 +20,13 @@ class ModalProject7Form extends Component {
               <div className="ui medium image">
                 <img
                   className="react-inbox"
-                  src={image}
-                  alt="react-email-inbox-project" />
+                  src={gif}
+                  alt="long-form-pro-matthew-rosenberg" />
               </div>
               <div className="description">
                 <div className="ui header">Long Form Pro</div>
                 <p> An elegant mock fully functional long form settings page called <a href="https://long-form-pro.firebaseapp.com/" target="_blank" rel="noopener noreferrer">Long Form Pro. </a> The site was built from sratch utilizing React.js, JavaScript, and CSS3.  Click around and test out the functionality.  Add a new user by clicking the "choose file" link twice in the Search Ads Accounts sections.  Also put in some password inputs to test out the password functionality. </p>
+                
                 <p>Try it out for yourself...</p>
               </div>
             </div>

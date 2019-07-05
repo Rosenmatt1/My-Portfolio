@@ -114,6 +114,7 @@ class App extends Component {
       modal4Toggle: false,
       modal5Toggle: false,
       modal6Toggle: false,
+      modal7Toggle: false
     })
   }
 
