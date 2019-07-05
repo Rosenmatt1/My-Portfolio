@@ -32,7 +32,7 @@ class Project7Form extends Component {
 
             <button
               className="ui button"
-              onClick={() => this.props.modal6()}
+              onClick={() => this.props.modal7()}
             >
               Learn More...
             </button>

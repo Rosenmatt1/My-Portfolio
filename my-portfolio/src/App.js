@@ -20,6 +20,7 @@ import ModalProject3 from './Components/ModalProject3'
 import ModalProject4 from './Components/ModalProject4'
 import ModalProject5 from './Components/ModalProject5'
 import ModalProject6 from './Components/ModalProject6'
+import ModalProject7Form from './Components/ModalProject7Form'
 import Footer from './Components/Footer.js'
 
 const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
@@ -38,6 +39,7 @@ class App extends Component {
       modal4Toggle: false,
       modal5Toggle: false,
       modal6Toggle: false,
+      modal7Toggle: false,
       aboutMeDisplay: false,
       projectsDiplay: true,
       serverWakeUp: false
@@ -95,6 +97,12 @@ class App extends Component {
   modal6 = () => {
     this.setState({
       modal6Toggle: true
+    })
+  }
+
+  modal7 = () => {
+    this.setState({
+      modal7Toggle: true
     })
   }
 
@@ -157,7 +165,15 @@ class App extends Component {
           <div className="ui centered centered divider" />
         </div>
 
-        <Project7Form />
+        <Project7Form 
+          modal7={this.modal7}
+        />
+
+        {this.state.modal7Toggle
+          ? <ModalProject7Form 
+            modalOff={this.modalOff} />
+            : ""
+        }
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
