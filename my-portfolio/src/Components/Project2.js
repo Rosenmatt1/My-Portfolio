@@ -9,9 +9,19 @@ class Project2 extends Component {
       <div className="ui stackable grid">
         <div className="row spacerExtra">
 
+          <div className="ui centered aligned grid eight wide column">
+            <div className="giphy" >
+              <img
+                className="ui fluid image"
+                src={gif}
+                alt="react-inbox-project"
+              />
+            </div>
+          </div>
+
           <div className="ui centered aligned grid eight wide column ">
             <div className="centered row">
-            <h3 className="centered">ReactInbox</h3>
+              <h3 className="centered">ReactInbox</h3>
             </div>
             <h5>Tech Used:</h5>
             <p>-React.js</p>
@@ -23,16 +33,6 @@ class Project2 extends Component {
             >
               Learn More...
             </button>
-          </div>
-
-          <div className="ui centered aligned grid eight wide column ">
-            <div className="giphy" >
-              <img
-                className="ui fluid image"
-                src={gif}
-                alt="react-inbox-project" 
-              />
-            </div>
           </div>
 
         </div>

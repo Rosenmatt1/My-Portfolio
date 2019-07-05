@@ -9,10 +9,10 @@ class Project7Form extends Component {
       <div className="ui stackable grid">
         <div className="row">
 
-          <div className="ui centered aligned grid eight wide column  spacer">
+          <div className="ui centered aligned grid eight wide column spacer">
             <div className="" >
               <img
-                className="gifImg ui fluid image"
+                className="ui fluid image"
                 src={gif}
                 alt="professional-long-form-settings"
               />

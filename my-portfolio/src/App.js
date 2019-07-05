@@ -149,11 +149,15 @@ class App extends Component {
           />
           : ""}
 
-        <Project7Form />
-
         <Project5Uber
           modal5={this.modal5}
         />
+
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider" />
+        </div>
+
+        <Project7Form />
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
@@ -167,20 +171,6 @@ class App extends Component {
 
         <Project6Weather
           modal6={this.modal6}
-        />
-
-        <div className="ui ten column centered grid">
-          <div className="ui centered centered divider" />
-        </div>
-
-        {this.state.modal1Toggle
-          ? <ModalProject1
-            modalOff={this.modalOff}
-          />
-          : ""}
-
-        <Project1
-          modal1={this.modal1}
         />
 
         <div className="ui ten column centered grid">
@@ -201,6 +191,20 @@ class App extends Component {
 
         <div className="ui ten column centered grid topMargin">
           <div className="ui centered divider" />
+        </div>
+
+        <Project1
+          modal1={this.modal1}
+        />
+
+        {this.state.modal1Toggle
+          ? <ModalProject1
+            modalOff={this.modalOff}
+          />
+          : ""}
+
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider" />
         </div>
 
         {this.state.modal3Toggle
