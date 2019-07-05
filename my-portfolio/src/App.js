@@ -166,20 +166,6 @@ class App extends Component {
           <div className="ui centered centered divider" />
         </div>
 
-        <Project7Form 
-          modal7={this.modal7}
-        />
-
-        {this.state.modal7Toggle
-          ? <ModalProject7Form 
-            modalOff={this.modalOff} />
-            : ""
-        }
-
-        <div className="ui ten column centered grid">
-          <div className="ui centered centered divider" />
-        </div>
-
         {this.state.modal6Toggle
           ? <ModalProject6
             modalOff={this.modalOff}
@@ -189,6 +175,21 @@ class App extends Component {
         <Project6Weather
           modal6={this.modal6}
         />
+
+        <div className="ui ten column centered grid">
+          <div className="ui centered centered divider" />
+        </div>
+
+
+        <Project7Form
+          modal7={this.modal7}
+        />
+
+        {this.state.modal7Toggle
+          ? <ModalProject7Form
+            modalOff={this.modalOff} />
+          : ""
+        }
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
