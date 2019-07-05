@@ -29,7 +29,7 @@ class ModalProject5 extends Component {
                   href="https://ubervslyftapp.firebaseapp.com/"
                   target="_blank"
                   rel="noopener noreferrer">Better Ride
-                </a> that pulls live data from the Uber and Lyft API to compare price and estimated time of arrival.  The input fields for the address utilize an API call to the Google places API to use predicitve autocomplete and get the longitiude and latitude needs for the Uber and Lyft requests. </p>
+                </a> that pulls live data from the Uber and Lyft API to compare price and estimated time of arrival.  The input fields for the address utilize an API call to the Google places API to use predicitve autocomplete and get the longitiude and latitude needs for the Uber and Lyft requests. Review the code base here on<a href="https://github.com/Rosenmatt1/UberVsLyftCost" target="_blank" rel="noopener noreferrer"> Github. </a></p>
                 <p>Try it out...</p>
               </div>
             </div>

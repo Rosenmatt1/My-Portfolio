@@ -180,7 +180,6 @@ class App extends Component {
           <div className="ui centered centered divider" />
         </div>
 
-
         <Project7Form
           modal7={this.modal7}
         />
