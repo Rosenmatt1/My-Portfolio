@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import gif from './Assets/chuck-norris.gif'
+import gif from './Assets/mock-store.gif'
 
 class Project4 extends Component {
 
@@ -12,12 +12,17 @@ class Project4 extends Component {
           <div className="ui centered aligned grid eight wide column">
 
             <div className="centered row">
-              <h3 className="centered">Chuck Norris Joke Generator</h3>
+              <h3 className="centered">Mock Store</h3>
             </div>
             <h5>Tech Used:</h5>
             <p>-React.js</p>
             <p>-JavaScript</p>
-            <p>-HTTP Fetch</p>
+            <p>-Router</p>
+            <p>-Sequelize</p>
+            <p>-Express/Node.js</p>
+            <p>-Redux/Hooks</p>
+            <p>-Auth/Validation</p>
+      
 
             <button
               className="ui button"
@@ -32,7 +37,7 @@ class Project4 extends Component {
               <img
                 className="ui fluid image"
                 src={gif}
-                alt="chuck-norris-joke-generator" 
+                alt="mock-store" 
               />
             </div>
           </div>

@@ -210,15 +210,15 @@ class App extends Component {
           <div className="ui centered divider" />
         </div>
 
-        <Project1
-          modal1={this.modal1}
-        />
-
-        {this.state.modal1Toggle
-          ? <ModalProject1
+        {this.state.modal4Toggle
+          ? <ModalProject4
             modalOff={this.modalOff}
           />
           : ""}
+
+        <Project4
+          modal4={this.modal4}
+        />
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
@@ -238,15 +238,15 @@ class App extends Component {
           <div className="ui centered centered divider" />
         </div>
 
-        {this.state.modal4Toggle
-          ? <ModalProject4
+        <Project1
+          modal1={this.modal1}
+        />
+
+        {this.state.modal1Toggle
+          ? <ModalProject1
             modalOff={this.modalOff}
           />
           : ""}
-
-        <Project4
-          modal4={this.modal4}
-        />
 
         <Footer />
 

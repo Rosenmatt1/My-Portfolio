@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import image from './Assets/chuck-norris.png'
+import image from './Assets/auth.png'
 
 class ModalProject4 extends Component {
 
@@ -14,23 +14,23 @@ class ModalProject4 extends Component {
               onClick={() => this.props.modalOff()}
             ></i>
             <div className="header">
-              Chuck Norris Random Joke Generator
+              Mock Store App
             </div>
             <div className="image content">
               <div className="ui medium image">
                 <img
                   className="chuck"
                   src={image}
-                  alt="chuck-norri-random-joke-generator" />
+                  alt="mock-store" />
               </div>
               <div className="description">
-                <div className="ui header">Don't Mess With The Norris</div>
+                <div className="ui header">Mock Store App</div>
                 <p>This is a web app called <a
-                  href="https://chuck-norris-quote-generator.firebaseapp.com/"
+                  href="https://my-store-toolkit.firebaseapp.com/"
                   target="_blank"
-                  rel="noopener noreferrer">Hello Chuck
-                </a> that displays random chuck norris jokes pulled from an outside api using a HTTP Fetch requst.  Turn the volume up a bit for the sound effect.  Get ready to laugh!  </p>
-                <p>Try it out...</p>
+                  rel="noopener noreferrer">Mock Store
+                </a> that fetches products and has full user authentication and validation.  Go ahead and make a user and login. </p>
+                <p>Check it out...</p>
               </div>
             </div>
             <div className="actions">
@@ -43,7 +43,7 @@ class ModalProject4 extends Component {
 
               <a
                 target="_blank"
-                href="https://chuck-norris-quote-generator.firebaseapp.com/"
+                href="https://my-store-toolkit.firebaseapp.com/"
                 rel="noopener noreferrer"
                 onClick={() => this.props.modalOff()}
               >
