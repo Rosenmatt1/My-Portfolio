@@ -6,7 +6,7 @@ class ModalProject1 extends Component {
 
   render() {
     return (
-      <div className="ui grid">
+      <div className="ui middle aligned grid">
         <div className="ui centered ten wide column">
           <div className="ui active modal" >
             <i
