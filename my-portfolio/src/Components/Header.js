@@ -27,7 +27,7 @@ const Header = (props) => {
 
         <a
           target="_blank"
-          href="https://github.com/Rosenmatt1"
+          href="https://www.linkedin.com/in/matthew-rosenberg1/"
           rel="noopener noreferrer">
           <i className="fab fa-linkedin-in socialMediaLinked "></i>
         </a>
