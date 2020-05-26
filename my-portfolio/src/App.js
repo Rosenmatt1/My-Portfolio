@@ -28,7 +28,7 @@ const InboxUrl = "https://react-email-inbox.herokuapp.com/api/messages/"
 const ChuckUrl = "https://chuck-norris-quote-generator.herokuapp.com/jokes"
 const EatsUrl = "https://galvanize-eats-api.herokuapp.com/menu"
 const WeatherUrl = "https://myweatherbuddy.herokuapp.com/"
-const MockStore = "https://my-store-toolkit.herokuapp.com/"
+const MockStore = "https://my-store-toolkit.herokuapp.com/products"
 
 class App extends Component {
   constructor() {
