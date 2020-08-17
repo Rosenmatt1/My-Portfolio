@@ -7,7 +7,7 @@ class Project8Music extends Component {
   render() {
     return (
       <div className="ui stackable grid">
-        <div className="row">
+        <div className="row musicMargins">
 
           <div className="ui centered aligned grid eight wide column">
 
