@@ -32,7 +32,7 @@ class ModalProject3 extends Component {
                 rel="noopener noreferrer"
                 > Boulevard Diner
                 </a> 
-                my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api. </p>
+                my first website fully built from sratch using vanilla JavaScript, DOM Manipulation, and Boostrap. The menu is fully functional and populates the menu items from an outside api.  The API that populates the menu is no longer accessible. </p>
                 <p>Go ahead and place an order...</p>
               </div>
             </div>

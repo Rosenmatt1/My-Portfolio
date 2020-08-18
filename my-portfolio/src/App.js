@@ -166,43 +166,25 @@ class App extends Component {
 
         <ParallaxTop />
 
-        {this.state.modal5Toggle
-          ? <ModalProject5
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal5Toggle && <ModalProject5 modalOff={this.modalOff}/>}
 
-        <Project5Uber
-          modal5={this.modal5}
-        />
+        <Project5Uber modal5={this.modal5} />
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
         </div>
 
-        {this.state.modal6Toggle
-          ? <ModalProject6
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal6Toggle && <ModalProject6 modalOff={this.modalOff}/>}
 
-        <Project6Weather
-          modal6={this.modal6}
-        />
+        <Project6Weather modal6={this.modal6} />
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
         </div>
 
-        <Project7Form
-          modal7={this.modal7}
-        />
+        <Project7Form modal7={this.modal7} />
 
-        {this.state.modal7Toggle
-          ? <ModalProject7Form
-            modalOff={this.modalOff} />
-          : ""
-        }
+        {this.state.modal7Toggle && <ModalProject7Form modalOff={this.modalOff} />}
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
@@ -210,67 +192,37 @@ class App extends Component {
 
         <ParallaxMiddle />
 
-        <Project8Music
-           modal8={this.modal8}
-        />
+        {this.state.modal8Toggle && <ModalProject8Music modalOff={this.modalOff} />}
 
-        {this.state.modal8Toggle
-          ? <ModalProject8Music
-            modalOff={this.modalOff}
-          />
-          : ""}
+        <Project8Music modal8={this.modal8} />
 
-        {this.state.modal2Toggle
-          ? <ModalProject2
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal2Toggle && <ModalProject2 modalOff={this.modalOff} />}
 
-        <Project2
-          modal2={this.modal2}
-        />
+        <Project2 modal2={this.modal2} />
 
         <div className="ui ten column centered grid topMargin">
           <div className="ui centered divider" />
         </div>
 
-        {this.state.modal4Toggle
-          ? <ModalProject4
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal4Toggle &&  <ModalProject4 modalOff={this.modalOff} />}
 
-        <Project4
-          modal4={this.modal4}
-        />
+        <Project4 modal4={this.modal4}/>
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
         </div>
 
-        {this.state.modal3Toggle
-          ? <ModalProject3
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal3Toggle && <ModalProject3 modalOff={this.modalOff} />}
 
-        <Project3
-          modal3={this.modal3}
-        />
+        <Project3 modal3={this.modal3}/>
 
         <div className="ui ten column centered grid">
           <div className="ui centered centered divider" />
         </div>
 
-        <Project1
-          modal1={this.modal1}
-        />
+        <Project1 modal1={this.modal1} />
 
-        {this.state.modal1Toggle
-          ? <ModalProject1
-            modalOff={this.modalOff}
-          />
-          : ""}
+        {this.state.modal1Toggle && <ModalProject1 modalOff={this.modalOff} />}
 
         <Footer />
 
