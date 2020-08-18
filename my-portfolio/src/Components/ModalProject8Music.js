@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import gif from './Assets/music-player.gif'
+import gif from './Assets/music-player.png'
 
 class ModalProject8Music extends Component {
 

@@ -25,7 +25,7 @@ class Project8Music extends Component {
             
             <button
               className="ui button"
-              onClick={() => this.props.modal7()}
+              onClick={() => this.props.modal8()}
             >
               Learn More...
             </button>

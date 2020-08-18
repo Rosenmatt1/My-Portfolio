@@ -22,6 +22,7 @@ import ModalProject4 from './Components/ModalProject4'
 import ModalProject5 from './Components/ModalProject5'
 import ModalProject6 from './Components/ModalProject6'
 import ModalProject7Form from './Components/ModalProject7Form'
+import ModalProject8Music from './Components/ModalProject8Music'
 import Footer from './Components/Footer.js'
 
 const JSurl = "https://jsflashcards.herokuapp.com/flashcards/"
@@ -30,6 +31,7 @@ const ChuckUrl = "https://chuck-norris-quote-generator.herokuapp.com/jokes"
 const EatsUrl = "https://galvanize-eats-api.herokuapp.com/menu"
 const WeatherUrl = "https://myweatherbuddy.herokuapp.com/"
 const MockStore = "https://my-store-toolkit.herokuapp.com/products"
+const MusicPlayer = 'https://music-player-account.herokuapp.com/graphql/'
 
 class App extends Component {
   constructor() {
@@ -42,6 +44,7 @@ class App extends Component {
       modal5Toggle: false,
       modal6Toggle: false,
       modal7Toggle: false,
+      modal8Toggle: false,
       aboutMeDisplay: false,
       projectsDiplay: true,
       serverWakeUp: false
@@ -55,6 +58,7 @@ class App extends Component {
     fetch(EatsUrl)
     fetch(WeatherUrl)
     fetch(MockStore)
+    fetch(MusicPlayer)
     this.setState({ serverWakeUp: true })
   }
 
@@ -109,6 +113,12 @@ class App extends Component {
     })
   }
 
+  modal8 = () => {
+    this.setState({
+      modal8Toggle: true
+    })
+  }
+
   modalOff = () => {
     this.setState({
       modal1Toggle: false,
@@ -117,7 +127,8 @@ class App extends Component {
       modal4Toggle: false,
       modal5Toggle: false,
       modal6Toggle: false,
-      modal7Toggle: false
+      modal7Toggle: false,
+      modal8Toggle: false
     })
   }
 
@@ -200,8 +211,14 @@ class App extends Component {
         <ParallaxMiddle />
 
         <Project8Music
-           modal7={this.modal7}
+           modal8={this.modal8}
         />
+
+        {this.state.modal8Toggle
+          ? <ModalProject8Music
+            modalOff={this.modalOff}
+          />
+          : ""}
 
         {this.state.modal2Toggle
           ? <ModalProject2
