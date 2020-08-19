@@ -14,8 +14,8 @@ import knex from './knex.png'
 
 const ReactCards = () => {
   return (
-    <div className="ui stackable centered grid skin">
-      <div className="centered row">
+    <div className="ui stackable centered grid skin card-margins">
+      <div className="centered row card-margins">
 
             <div className="skill">
               <img className="shrinker" src={react} alt="react" />

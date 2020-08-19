@@ -292,6 +292,12 @@ p {
   margin-right: 1rem;
 }
 
+/* .card-margins {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  z-index: 999;
+} */
+
 
 /* @media only screen and (max-width: 768px) {
 
