@@ -40,10 +40,8 @@
   <link rel="dns-prefetch" href="https://my-store-toolkit.herokuapp.com/products">
   <link rel="dns-prefetch" href="https://music-player-account.herokuapp.com/graphql/">
 
-  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
-
-  <script>
-    // Initialize Firebasehttps://github.com/Rosenmatt1/chuck-norris-jokes.git
+  <!-- <script>
+    // Initialize Firebasehttps:
     var config = {
       apiKey: "AIzaSyA08HfUtp38ShfSNsl6-SeuNsEPRyAyJX4",
       authDomain: "mateo-portfolio-projects.firebaseapp.com",
@@ -53,7 +51,7 @@
       messagingSenderId: "180833336243"
     };
     firebase.initializeApp(config);
-  </script>
+  </script> --> 
 
   <meta property="og:url" content="https://mateo-portfolio-projects.firebaseapp.com/" />
   <meta property="og:description" content="Matthew Rosenberg Denver Web Developer" />
@@ -79,6 +77,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+<!-- 
+    {
+      "hosting": {
+        "site": "mateo-portfolio-projects",
+        "public": "public",
+        ...
+      }
+    } -->
+
+    <!-- firebase deploy --only hosting:mateo-portfolio-projects -->
+
   <!-- mask for polfill -->
   <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
 
@@ -86,6 +95,15 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="semantic/dist/semantic.min.js"></script>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/8.1.1/firebase-app.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script> -->
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+
 </body>
 
 </html>
